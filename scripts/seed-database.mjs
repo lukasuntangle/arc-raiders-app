@@ -31,6 +31,7 @@ async function seedWorkshopStations() {
     { id: 'explosives_station', name: 'explosives_station', display_name: 'Explosives Station', sort_order: 5 },
     { id: 'refiner', name: 'refiner', display_name: 'Refiner', sort_order: 6 },
     { id: 'utility_station', name: 'utility_station', display_name: 'Utility Station', sort_order: 7 },
+    { id: 'expedition', name: 'expedition', display_name: 'Expedition', sort_order: 8 },
   ];
 
   const { error } = await supabase.from('workshop_stations').upsert(stations);

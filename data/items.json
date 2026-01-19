@@ -416,6 +416,16 @@
       "usedInUpgrades": ["gear_bench_3"]
     },
     {
+      "id": "heating_coil",
+      "name": "Heating Coil",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["expedition_project_2"],
+      "notes": "Used for Expedition Project 2"
+    },
+    {
       "id": "heavy_spring",
       "name": "Heavy Spring",
       "rarity": "uncommon",

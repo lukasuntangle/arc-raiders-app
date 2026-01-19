@@ -240,29 +240,79 @@
     }
   ],
   "magazineSizes": {
-    "light": {
-      "tiers": [
-        { "tier": 1, "capacities": [20, 20, 8, 12, 20, 24, 10, 8, 8, 25, 5, 6] },
-        { "tier": 2, "capacities": [25, 25, 13, 17, 25, 28, 14, 12, 12, 29, 7, 8] },
-        { "tier": 3, "capacities": [30, 30, 18, 22, 30, 32, 18, 16, 16, 33, 11, 10] },
-        { "tier": 4, "capacities": [35, 35, 23, 27, 35, 36, 22, 20, 20, 37, 11, 12] }
-      ]
-    },
-    "medium": {
-      "tiers": [
-        { "tier": 1, "capacities": [20, 20, 8, 12, 20, 24, 10, 8, 8, 25, 5, 6] },
-        { "tier": 2, "capacities": [25, 25, 13, 17, 25, 28, 14, 12, 12, 29, 7, 8] },
-        { "tier": 3, "capacities": [30, 30, 18, 22, 30, 32, 18, 16, 16, 33, 11, 10] },
-        { "tier": 4, "capacities": [35, 35, 23, 27, 35, 36, 22, 20, 20, 37, 11, 12] }
-      ]
-    },
-    "shotgun": {
-      "tiers": [
-        { "tier": 1, "capacities": [5, 6] },
-        { "tier": 2, "capacities": [7, 8] },
-        { "tier": 3, "capacities": [9, 10] },
-        { "tier": 4, "capacities": [11, 12] }
-      ]
-    }
+    "weapons": [
+      {
+        "id": "rattler",
+        "name": "Rattler",
+        "type": "assault_rifle",
+        "magazines": { "t1": 20, "t2": 25, "t3": 30, "t4": 35 }
+      },
+      {
+        "id": "blitzer",
+        "name": "Blitzer",
+        "type": "assault_rifle",
+        "magazines": { "t1": 20, "t2": 25, "t3": 30, "t4": 35 }
+      },
+      {
+        "id": "mk2",
+        "name": "MK-2",
+        "type": "pistol",
+        "magazines": { "t1": 8, "t2": 13, "t3": 18, "t4": 23 }
+      },
+      {
+        "id": "acr",
+        "name": "ACR",
+        "type": "assault_rifle",
+        "magazines": { "t1": 12, "t2": 17, "t3": 22, "t4": 27 }
+      },
+      {
+        "id": "famas",
+        "name": "FAMAS",
+        "type": "assault_rifle",
+        "magazines": { "t1": 20, "t2": 25, "t3": 30, "t4": 35 }
+      },
+      {
+        "id": "ppsh",
+        "name": "PPSh",
+        "type": "smg",
+        "magazines": { "t1": 24, "t2": 28, "t3": 32, "t4": 36 }
+      },
+      {
+        "id": "light_pistol",
+        "name": "Light Pistol",
+        "type": "pistol",
+        "magazines": { "t1": 10, "t2": 14, "t3": 18, "t4": 22 }
+      },
+      {
+        "id": "revolver",
+        "name": "Revolver",
+        "type": "pistol",
+        "magazines": { "t1": 8, "t2": 12, "t3": 16, "t4": 20 }
+      },
+      {
+        "id": "smg",
+        "name": "SMG",
+        "type": "smg",
+        "magazines": { "t1": 24, "t2": 28, "t3": 32, "t4": 36 }
+      },
+      {
+        "id": "sniper",
+        "name": "Sniper",
+        "type": "sniper",
+        "magazines": { "t1": 5, "t2": 7, "t3": 9, "t4": 11 }
+      },
+      {
+        "id": "dmr",
+        "name": "DMR",
+        "type": "dmr",
+        "magazines": { "t1": 6, "t2": 8, "t3": 10, "t4": 12 }
+      },
+      {
+        "id": "shotgun",
+        "name": "Shotgun",
+        "type": "shotgun",
+        "magazines": { "t1": 5, "t2": 7, "t3": 9, "t4": 11 }
+      }
+    ]
   }
 }

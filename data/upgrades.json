@@ -211,6 +211,34 @@
       "requirements": [
         { "itemId": "power_cell", "itemName": "Power Cell", "quantity": 3 }
       ]
+    },
+    {
+      "id": "expedition_project_1",
+      "name": "Expedition Project 1",
+      "station": "expedition",
+      "level": 1,
+      "requirements": [
+        { "itemId": "metal_parts", "itemName": "Metal Parts", "quantity": 1000 },
+        { "itemId": "rubber_parts", "itemName": "Rubber Parts", "quantity": 500 },
+        { "itemId": "durable_cloth", "itemName": "Durable Cloth", "quantity": 500 },
+        { "itemId": "light_bulb", "itemName": "Light Bulb", "quantity": 10 },
+        { "itemId": "mechanical_parts", "itemName": "Mechanical Parts", "quantity": 300 },
+        { "itemId": "worn_leather", "itemName": "Worn Leather", "quantity": 300 }
+      ]
+    },
+    {
+      "id": "expedition_project_2",
+      "name": "Expedition Project 2",
+      "station": "expedition",
+      "level": 2,
+      "requirements": [
+        { "itemId": "metal_parts", "itemName": "Metal Parts", "quantity": 2000 },
+        { "itemId": "rubber_parts", "itemName": "Rubber Parts", "quantity": 1000 },
+        { "itemId": "durable_cloth", "itemName": "Durable Cloth", "quantity": 1000 },
+        { "itemId": "heating_coil", "itemName": "Heating Coil", "quantity": 15 },
+        { "itemId": "refined_metal", "itemName": "Refined Metal", "quantity": 1500 },
+        { "itemId": "ballistic_cloth", "itemName": "Ballistic Cloth", "quantity": 500 }
+      ]
     }
   ]
 }
