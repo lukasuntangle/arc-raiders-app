@@ -7,30 +7,41 @@ import {
   FlatList,
   TouchableOpacity,
   TextInput,
+  Image,
 } from 'react-native';
 import { useColorScheme } from '@/components/useColorScheme';
 import Colors, { arcColors, rarityColors } from '@/constants/Colors';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import lootData from '@/data/loot.json';
+import itemsData from '@/data/items.json';
+import { getItemImage } from '@/assets/images/items';
 
-type LootItem = {
+type RecycleOutput = {
+  material: string;
+  quantity: number;
+};
+
+type Item = {
   id: string;
   name: string;
   rarity: string;
-  recyclesInto: { material: string; quantity: number }[];
+  category: string;
+  action: string;
+  recycleTo?: RecycleOutput[] | null;
 };
 
 type MaterialDonor = {
-  item: LootItem;
+  item: Item;
   quantity: number;
 };
 
 // Build a map of materials to their best donors
-function buildMaterialDonorsMap(loot: LootItem[]): Map<string, MaterialDonor[]> {
+function buildMaterialDonorsMap(items: Item[]): Map<string, MaterialDonor[]> {
   const map = new Map<string, MaterialDonor[]>();
 
-  for (const item of loot) {
-    for (const output of item.recyclesInto) {
+  for (const item of items) {
+    if (!item.recycleTo) continue;
+
+    for (const output of item.recycleTo) {
       const donors = map.get(output.material) || [];
       donors.push({ item, quantity: output.quantity });
       map.set(output.material, donors);
@@ -47,10 +58,11 @@ function buildMaterialDonorsMap(loot: LootItem[]): Map<string, MaterialDonor[]> 
 }
 
 // Get all unique materials sorted alphabetically
-function getAllMaterials(loot: LootItem[]): string[] {
+function getAllMaterials(items: Item[]): string[] {
   const materials = new Set<string>();
-  for (const item of loot) {
-    for (const output of item.recyclesInto) {
+  for (const item of items) {
+    if (!item.recycleTo) continue;
+    for (const output of item.recycleTo) {
       materials.add(output.material);
     }
   }
@@ -64,12 +76,12 @@ export default function DonorsScreen() {
   const [expandedMaterial, setExpandedMaterial] = useState<string | null>(null);
 
   const donorsMap = useMemo(
-    () => buildMaterialDonorsMap(lootData.loot as LootItem[]),
+    () => buildMaterialDonorsMap(itemsData.items as Item[]),
     []
   );
 
   const allMaterials = useMemo(
-    () => getAllMaterials(lootData.loot as LootItem[]),
+    () => getAllMaterials(itemsData.items as Item[]),
     []
   );
 
@@ -83,11 +95,57 @@ export default function DonorsScreen() {
     return rarityColors[rarity as keyof typeof rarityColors] || colors.text;
   };
 
+  const renderDonorItem = (donor: MaterialDonor, index: number) => {
+    const itemImage = getItemImage(donor.item.id);
+
+    return (
+      <View
+        key={donor.item.id}
+        style={[
+          styles.donorRow,
+          index === 0 && styles.topDonor,
+          { borderBottomColor: colors.border },
+        ]}
+      >
+        <View style={styles.donorInfo}>
+          {index === 0 && (
+            <FontAwesome
+              name="star"
+              size={12}
+              color={arcColors.gold}
+              style={styles.starIcon}
+            />
+          )}
+          {itemImage ? (
+            <Image source={itemImage} style={styles.donorImage} />
+          ) : (
+            <View style={[styles.rarityDot, { backgroundColor: getRarityColor(donor.item.rarity) }]} />
+          )}
+          <Text
+            style={[
+              styles.donorName,
+              { color: getRarityColor(donor.item.rarity) },
+            ]}
+            numberOfLines={1}
+          >
+            {donor.item.name}
+          </Text>
+        </View>
+        <View style={styles.quantityBadge}>
+          <Text style={styles.quantityText}>×{donor.quantity}</Text>
+        </View>
+      </View>
+    );
+  };
+
   const renderMaterialSection = ({ item: material }: { item: string }) => {
     const donors = donorsMap.get(material) || [];
     const isExpanded = expandedMaterial === material;
     const displayedDonors = isExpanded ? donors : donors.slice(0, 3);
     const hasMore = donors.length > 3;
+
+    // Calculate total quantity from all donors
+    const totalQuantity = donors.reduce((sum, d) => sum + d.quantity, 0);
 
     return (
       <View style={[styles.materialSection, { backgroundColor: colors.card }]}>
@@ -95,44 +153,15 @@ export default function DonorsScreen() {
           <Text style={[styles.materialName, { color: colors.text }]}>
             {material}
           </Text>
-          <Text style={[styles.donorCount, { color: colors.textSecondary }]}>
-            {donors.length} source{donors.length !== 1 ? 's' : ''}
-          </Text>
+          <View style={styles.materialStats}>
+            <Text style={[styles.donorCount, { color: colors.textSecondary }]}>
+              {donors.length} source{donors.length !== 1 ? 's' : ''}
+            </Text>
+          </View>
         </View>
 
         <View style={styles.donorsList}>
-          {displayedDonors.map((donor, index) => (
-            <View
-              key={donor.item.id}
-              style={[
-                styles.donorRow,
-                index === 0 && styles.topDonor,
-                { borderBottomColor: colors.border },
-              ]}
-            >
-              <View style={styles.donorInfo}>
-                {index === 0 && (
-                  <FontAwesome
-                    name="star"
-                    size={12}
-                    color={arcColors.gold}
-                    style={styles.starIcon}
-                  />
-                )}
-                <Text
-                  style={[
-                    styles.donorName,
-                    { color: getRarityColor(donor.item.rarity) },
-                  ]}
-                >
-                  {donor.item.name}
-                </Text>
-              </View>
-              <View style={styles.quantityBadge}>
-                <Text style={styles.quantityText}>×{donor.quantity}</Text>
-              </View>
-            </View>
-          ))}
+          {displayedDonors.map((donor, index) => renderDonorItem(donor, index))}
         </View>
 
         {hasMore && (
@@ -163,7 +192,7 @@ export default function DonorsScreen() {
       <View style={styles.header}>
         <Text style={[styles.title, { color: colors.text }]}>Best Donors</Text>
         <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
-          What to recycle to get specific materials
+          Search for a material to see what items recycle into it
         </Text>
       </View>
 
@@ -176,7 +205,7 @@ export default function DonorsScreen() {
         />
         <TextInput
           style={[styles.searchInput, { color: colors.text }]}
-          placeholder="Search materials..."
+          placeholder="Search materials (e.g. Plastic Parts)..."
           placeholderTextColor={colors.textSecondary}
           value={searchQuery}
           onChangeText={setSearchQuery}
@@ -196,8 +225,12 @@ export default function DonorsScreen() {
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={
           <View style={styles.emptyContainer}>
+            <FontAwesome name="recycle" size={48} color={colors.textSecondary} style={styles.emptyIcon} />
             <Text style={[styles.emptyText, { color: colors.textSecondary }]}>
               No materials found
+            </Text>
+            <Text style={[styles.emptyHint, { color: colors.textSecondary }]}>
+              Try searching for "Metal Parts" or "Chemicals"
             </Text>
           </View>
         }
@@ -258,6 +291,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
   },
+  materialStats: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
   donorCount: {
     fontSize: 12,
   },
@@ -281,8 +319,21 @@ const styles = StyleSheet.create({
   starIcon: {
     marginRight: 6,
   },
+  donorImage: {
+    width: 28,
+    height: 28,
+    borderRadius: 4,
+    marginRight: 8,
+  },
+  rarityDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    marginRight: 8,
+  },
   donorName: {
     fontSize: 14,
+    flex: 1,
   },
   quantityBadge: {
     backgroundColor: arcColors.teal,
@@ -309,9 +360,18 @@ const styles = StyleSheet.create({
   },
   emptyContainer: {
     alignItems: 'center',
-    paddingVertical: 40,
+    paddingVertical: 60,
+  },
+  emptyIcon: {
+    marginBottom: 16,
+    opacity: 0.5,
   },
   emptyText: {
-    fontSize: 14,
+    fontSize: 16,
+    fontWeight: '500',
+  },
+  emptyHint: {
+    fontSize: 13,
+    marginTop: 4,
   },
 });

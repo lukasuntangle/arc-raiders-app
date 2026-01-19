@@ -18,7 +18,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 1
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "advanced_arc_powercell",
@@ -28,7 +38,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Very valuable resource that drops from certain ARC enemies."
+      "notes": "Very valuable resource that drops from certain ARC enemies.",
+      "recycleTo": [
+        {
+          "material": "ARC Powercell",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "advanced_electrical_components",
@@ -38,7 +54,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Electrical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Wires",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "advanced_mechanical_components",
@@ -48,7 +74,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft advanced weapons. Can be recycled into crafting materials."
+      "notes": "Used to craft advanced weapons. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Steel Spring",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "agave",
@@ -58,7 +94,13 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "A piece of an agave leaf. Can be used to regain a small amount of health."
+      "notes": "A piece of an agave leaf. Can be used to regain a small amount of health.",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "air_freshener",
@@ -68,7 +110,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "May be worth a few coins."
+      "notes": "May be worth a few coins.",
+      "recycleTo": null
     },
     {
       "id": "alarm_clock",
@@ -78,7 +121,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Processor",
+          "quantity": 1
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "antiseptic",
@@ -88,7 +141,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft medical supplies. Can be recycled into chemicals."
+      "notes": "Used to craft medical supplies. Can be recycled into chemicals.",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 0
+        }
+      ]
     },
     {
       "id": "apricot",
@@ -98,7 +157,13 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "A sun ripe apricot. Can be consumed for a small amount of stamina."
+      "notes": "A sun ripe apricot. Can be consumed for a small amount of stamina.",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "arc_alloy",
@@ -108,7 +173,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Obtained from ARC enemies or activites, or by recycling certain ARC parts. Used to craft components."
+      "notes": "Obtained from ARC enemies or activites, or by recycling certain ARC parts. Used to craft components.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "arc_circuitry",
@@ -118,7 +189,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy."
+      "notes": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "arc_coolant",
@@ -128,7 +205,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Obtained from ARC enemies or activites. Can be recycled into chemicals"
+      "notes": "Obtained from ARC enemies or activites. Can be recycled into chemicals",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "arc_flex_rubber",
@@ -138,7 +221,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Obtained from ARC enemies or activities. Can be recycled into rubber."
+      "notes": "Obtained from ARC enemies or activities. Can be recycled into rubber.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "arc_motion_core",
@@ -148,7 +237,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy."
+      "notes": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "arc_performance_steel",
@@ -158,7 +253,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into scrap metal."
+      "notes": "Can be recycled into scrap metal.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "arc_powercell",
@@ -168,7 +269,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Valuable resource that drops from all ARC enemies."
+      "notes": "Valuable resource that drops from all ARC enemies.",
+      "recycleTo": null
     },
     {
       "id": "arc_synthetic_resin",
@@ -178,7 +280,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "arc_thermo_lining",
@@ -188,7 +296,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "assorted_seeds",
@@ -198,7 +312,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A handful of seeds. Celeste might be looking for these."
+      "notes": "A handful of seeds. Celeste might be looking for these.",
+      "recycleTo": null
     },
     {
       "id": "bandage",
@@ -208,7 +323,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "barricade_kit",
@@ -218,7 +339,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "bastion_cell",
@@ -228,7 +355,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 2
+        },
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "battery",
@@ -238,7 +375,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into scrap metal."
+      "notes": "Used to craft a wide range of items. Can be recycled into scrap metal.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "bicycle_pump",
@@ -248,7 +391,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 0
+        },
+        {
+          "material": "Canister",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "binoculars",
@@ -258,7 +411,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 2
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "bison_driver",
@@ -278,7 +441,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Oil",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "bloated_tuna_can",
@@ -288,7 +461,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Something tells you that you don't want to open this..."
+      "notes": "Something tells you that you don't want to open this...",
+      "recycleTo": null
     },
     {
       "id": "bobcat",
@@ -308,7 +482,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 2
+        },
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "breathtaking_snow_globe",
@@ -318,7 +502,8 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "The envy of every Speranzan. Proof that this world was once thriving and magical."
+      "notes": "The envy of every Speranzan. Proof that this world was once thriving and magical.",
+      "recycleTo": null
     },
     {
       "id": "broken_flashlight",
@@ -328,7 +513,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "broken_guidance_system",
@@ -338,7 +533,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Processor",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "broken_handheld_radio",
@@ -348,7 +549,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Wires",
+          "quantity": 2
+        },
+        {
+          "material": "Sensors",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "broken_taser",
@@ -358,7 +569,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 2
+        },
+        {
+          "material": "Wires",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "burletta",
@@ -378,7 +599,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into ARC Alloy."
+      "notes": "Can be recycled into ARC Alloy.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "camera_lens",
@@ -388,7 +615,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "candle_holder",
@@ -398,7 +631,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "canister",
@@ -408,7 +647,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into plastic."
+      "notes": "Used to craft a wide range of items. Can be recycled into plastic.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "cat_bed",
@@ -418,7 +663,8 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "At least a tiny bit more comfortable than your face."
+      "notes": "At least a tiny bit more comfortable than your face.",
+      "recycleTo": null
     },
     {
       "id": "chemicals",
@@ -428,7 +674,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft medical supplies, explosives, and utility items."
+      "notes": "Used to craft medical supplies, explosives, and utility items.",
+      "recycleTo": null
     },
     {
       "id": "coffee_pot",
@@ -438,7 +685,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "The power to face a new day, one drip at a time."
+      "notes": "The power to face a new day, one drip at a time.",
+      "recycleTo": null
     },
     {
       "id": "combat_mk_1",
@@ -448,7 +696,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 3
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "coolant",
@@ -458,7 +716,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Oil",
+          "quantity": 2
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 5
+        }
+      ]
     },
     {
       "id": "cooling_coil",
@@ -468,7 +736,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Steel Spring",
+          "quantity": 2
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "cooling_fan",
@@ -478,7 +756,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 4
+        },
+        {
+          "material": "Wires",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "cracked_bioscanner",
@@ -488,7 +776,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 3
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "crude_explosives",
@@ -500,7 +798,13 @@
       "usedInUpgrades": [
         "explosives_station_1"
       ],
-      "notes": "Used to crafted explosives. Can be recycled into crafting materials."
+      "notes": "Used to crafted explosives. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "crumpled_plastic_bottle",
@@ -510,7 +814,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into plastic parts."
+      "notes": "Can be recycled into plastic parts.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "damaged_arc_motion_core",
@@ -520,7 +830,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "damaged_arc_powercell",
@@ -530,7 +846,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "damaged_fireball_burner",
@@ -540,7 +862,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "damaged_heat_sink",
@@ -550,7 +878,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "Wires",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "damaged_hornet_driver",
@@ -560,7 +898,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "damaged_rocketeer_driver",
@@ -570,7 +914,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "damaged_tick_pod",
@@ -580,7 +930,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "damaged_wasp_driver",
@@ -590,7 +946,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "dart_board",
@@ -600,7 +962,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Some Raiders use it to practice dexterity. Others just like throwing things at other things."
+      "notes": "Some Raiders use it to practice dexterity. Others just like throwing things at other things.",
+      "recycleTo": null
     },
     {
       "id": "defibrillator",
@@ -610,7 +973,17 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "An injection that quickly revives downed raiders and restores some health"
+      "notes": "An injection that quickly revives downed raiders and restores some health",
+      "recycleTo": [
+        {
+          "material": "Moss",
+          "quantity": 1
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "deflated_football",
@@ -620,7 +993,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Just by looking at this, you too start to feel slightly deflated."
+      "notes": "Just by looking at this, you too start to feel slightly deflated.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 9
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 9
+        }
+      ]
     },
     {
       "id": "degraded_arc_rubber",
@@ -630,7 +1013,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "diving_goggles",
@@ -640,7 +1029,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "dog_collar",
@@ -650,7 +1045,17 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "After all this time, you can still smell the goodness."
+      "notes": "After all this time, you can still smell the goodness.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 1
+        },
+        {
+          "material": "Fabric",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "door_blocker",
@@ -660,7 +1065,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A locking mechanism that can be placed on large metal doors to limit access."
+      "notes": "A locking mechanism that can be placed on large metal doors to limit access.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "dried_out_arc_resin",
@@ -670,7 +1081,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 9
+        }
+      ]
     },
     {
       "id": "duct_tape",
@@ -680,7 +1097,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "durable_cloth",
@@ -692,7 +1115,13 @@
       "usedInUpgrades": [
         "gear_bench_2"
       ],
-      "notes": "Used to craft medical supplies."
+      "notes": "Used to craft medical supplies.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "electrical_components",
@@ -702,7 +1131,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 3
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "empty_wine_bottle",
@@ -712,7 +1151,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Yes, it really is empty."
+      "notes": "Yes, it really is empty.",
+      "recycleTo": null
     },
     {
       "id": "energy_clip",
@@ -742,7 +1182,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items."
+      "notes": "Used to craft a wide range of items.",
+      "recycleTo": [
+        {
+          "material": "Magnet",
+          "quantity": 2
+        },
+        {
+          "material": "Processor",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "expired_pasta",
@@ -752,7 +1202,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Way pasta its prime."
+      "notes": "Way pasta its prime.",
+      "recycleTo": null
     },
     {
       "id": "expired_respirator",
@@ -762,7 +1213,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 4
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "explosive_compound",
@@ -775,7 +1236,13 @@
         "explosives_station_2",
         "explosives_station_3"
       ],
-      "notes": "Used to craft explosives."
+      "notes": "Used to craft explosives.",
+      "recycleTo": [
+        {
+          "material": "Crude Explosives",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "fabric",
@@ -785,7 +1252,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft medical supplies and shields."
+      "notes": "Used to craft medical supplies and shields.",
+      "recycleTo": null
     },
     {
       "id": "faded_photograph",
@@ -795,7 +1263,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A snapshot of the world before, faded by sunlight and time."
+      "notes": "A snapshot of the world before, faded by sunlight and time.",
+      "recycleTo": null
     },
     {
       "id": "ferro",
@@ -815,7 +1284,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "film_reel",
@@ -825,7 +1300,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "May be worth a few coins."
+      "notes": "May be worth a few coins.",
+      "recycleTo": null
     },
     {
       "id": "fine_wristwatch",
@@ -835,7 +1311,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person."
+      "notes": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person.",
+      "recycleTo": null
     },
     {
       "id": "fireball_burner",
@@ -845,7 +1322,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into ARC Alloy"
+      "notes": "Can be recycled into ARC Alloy",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "flow_controller",
@@ -855,7 +1342,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Sensors",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "free_loadout_augment",
@@ -865,7 +1362,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "frequency_modulation_box",
@@ -875,7 +1373,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Electrical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Speaker Component",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "fried_motherboard",
@@ -885,7 +1393,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Electrical Components",
+          "quantity": 2
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 5
+        }
+      ]
     },
     {
       "id": "garlic_press",
@@ -895,7 +1413,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "It'll press garlic, olives, and probably many other things."
+      "notes": "It'll press garlic, olives, and probably many other things.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "geiger_counter",
@@ -905,7 +1429,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Exodus Modules",
+          "quantity": 1
+        },
+        {
+          "material": "Battery",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "great_mullein",
@@ -915,7 +1449,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "hairpin",
@@ -935,7 +1475,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Speaker Component",
+          "quantity": 1
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 7
+        }
+      ]
     },
     {
       "id": "heavy_ammo",
@@ -945,7 +1495,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "heavy_fuze_grenade",
@@ -955,7 +1506,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Oil",
+          "quantity": 1
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "heavy_shield",
@@ -965,7 +1526,17 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility."
+      "notes": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility.",
+      "recycleTo": [
+        {
+          "material": "Voltage Converter",
+          "quantity": 1
+        },
+        {
+          "material": "ARC Circuitry",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "herbal_bandage",
@@ -975,7 +1546,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 2
+        },
+        {
+          "material": "Fabric",
+          "quantity": 5
+        }
+      ]
     },
     {
       "id": "hornet_driver",
@@ -985,7 +1566,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        },
+        {
+          "material": "Electrical Components",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "household_cleaner",
@@ -995,7 +1586,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into chemicals."
+      "notes": "Can be recycled into chemicals.",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "hullcracker",
@@ -1015,7 +1612,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Canister",
+          "quantity": 2
+        },
+        {
+          "material": "Wires",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "ice_cream_scooper",
@@ -1025,7 +1632,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "It is theorized that scooping things was a favorite pasttime in the world before."
+      "notes": "It is theorized that scooping things was a favorite pasttime in the world before.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 7
+        }
+      ]
     },
     {
       "id": "il_toro",
@@ -1045,7 +1658,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 2
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 7
+        }
+      ]
     },
     {
       "id": "industrial_charger",
@@ -1055,7 +1678,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Voltage Converter",
+          "quantity": 1
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 5
+        }
+      ]
     },
     {
       "id": "industrial_magnet",
@@ -1065,7 +1698,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Magnet",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "ion_sputter",
@@ -1075,7 +1718,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Exodus Modules",
+          "quantity": 1
+        },
+        {
+          "material": "Voltage Converter",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "jolt_mine",
@@ -1085,7 +1738,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A proximity triggered mine that pops up and stuns anything within its radius"
+      "notes": "A proximity triggered mine that pops up and stuns anything within its radius",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 1
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "jupiter",
@@ -1117,7 +1780,17 @@
       "usedInUpgrades": [
         "explosives_station_2"
       ],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 6
+        },
+        {
+          "material": "Crude Explosives",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "lances_mixtape",
@@ -1137,7 +1810,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "leaper_pulse_unit",
@@ -1147,7 +1821,17 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "High-tier component, keep for upgrades"
+      "notes": "High-tier component, keep for upgrades",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 2
+        },
+        {
+          "material": "ARC Alloy",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "lemon",
@@ -1157,7 +1841,13 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Can be consumed for a small amount of Stamina"
+      "notes": "Can be consumed for a small amount of Stamina",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "light_ammo",
@@ -1167,7 +1857,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "light_bulb",
@@ -1179,7 +1870,8 @@
       "usedInUpgrades": [
         "utility_station_1"
       ],
-      "notes": "Without light, life underground would be impossible."
+      "notes": "Without light, life underground would be impossible.",
+      "recycleTo": null
     },
     {
       "id": "light_shield",
@@ -1189,7 +1881,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A lightweight shield that offers limited protection without severely impacting mobility."
+      "notes": "A lightweight shield that offers limited protection without severely impacting mobility.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "looting_mk_1",
@@ -1199,7 +1897,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 3
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "magnet",
@@ -1209,7 +1917,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "magnetic_accelerator",
@@ -1219,7 +1933,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft advanced weapons."
+      "notes": "Used to craft advanced weapons.",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "ARC Motion Core",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "magnetron",
@@ -1229,7 +1953,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Magnetic Accelerator",
+          "quantity": 1
+        },
+        {
+          "material": "Steel Spring",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "mechanical_components",
@@ -1239,7 +1973,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "medium_ammo",
@@ -1249,7 +1993,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "medium_shield",
@@ -1259,7 +2004,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A standard shield that offers fair protection at a moderate cost to mobility."
+      "notes": "A standard shield that offers fair protection at a moderate cost to mobility.",
+      "recycleTo": [
+        {
+          "material": "ARC Circuitry",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "metal_brackets",
@@ -1269,7 +2020,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "metal_parts",
@@ -1283,7 +2040,8 @@
         "gear_bench_1",
         "scrappy_1"
       ],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "microscope",
@@ -1293,7 +2051,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Magnet",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "mini_centrifuge",
@@ -1303,7 +2071,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "Advanced Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Canister",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "mod_components",
@@ -1313,7 +2091,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Steel Spring",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "moss",
@@ -1323,7 +2111,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "motor",
@@ -1333,7 +2127,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Mechanical Components",
+          "quantity": 2
+        },
+        {
+          "material": "Oil",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "mushroom",
@@ -1343,7 +2147,8 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Keep for quests"
+      "notes": "Keep for quests",
+      "recycleTo": null
     },
     {
       "id": "music_album",
@@ -1353,7 +2158,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts."
+      "notes": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts.",
+      "recycleTo": null
     },
     {
       "id": "music_box",
@@ -1363,7 +2169,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Worth a small fortune."
+      "notes": "Worth a small fortune.",
+      "recycleTo": null
     },
     {
       "id": "number_plate",
@@ -1373,7 +2180,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into metal parts."
+      "notes": "Can be recycled into metal parts.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "oil",
@@ -1383,7 +2196,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "osprey",
@@ -1403,7 +2222,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "photoelectric_cloak",
@@ -1413,7 +2233,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Advanced Electrical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Speaker Component",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "plastic_parts",
@@ -1423,7 +2253,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "playing_cards",
@@ -1433,7 +2264,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Speranzans love to see who can build the tallest tower - before the temors knock them down."
+      "notes": "Speranzans love to see who can build the tallest tower - before the temors knock them down.",
+      "recycleTo": null
     },
     {
       "id": "polluted_air_filter",
@@ -1443,7 +2275,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Oil",
+          "quantity": 2
+        },
+        {
+          "material": "Fabric",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "pop_trigger",
@@ -1453,7 +2295,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        },
+        {
+          "material": "Crude Explosives",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "portable_tv",
@@ -1463,7 +2315,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 2
+        },
+        {
+          "material": "Wires",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "poster_of_natural_wonders",
@@ -1473,7 +2335,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "If you stand close and squint your eyes, it's like the world never came crumbling down."
+      "notes": "If you stand close and squint your eyes, it's like the world never came crumbling down.",
+      "recycleTo": null
     },
     {
       "id": "pottery",
@@ -1483,7 +2346,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "May be worth a few coins."
+      "notes": "May be worth a few coins.",
+      "recycleTo": null
     },
     {
       "id": "power_bank",
@@ -1493,7 +2357,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Battery",
+          "quantity": 2
+        },
+        {
+          "material": "Wires",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "power_cable",
@@ -1503,7 +2377,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Wires",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "processor",
@@ -1513,7 +2393,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used in Crafting"
+      "notes": "Used in Crafting",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 1
+        },
+        {
+          "material": "Wires",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "queen_reactor",
@@ -1523,7 +2413,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Magnetic Accelerator",
+          "quantity": 1
+        },
+        {
+          "material": "Power Rod",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "radio",
@@ -1533,7 +2433,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Sensors",
+          "quantity": 1
+        },
+        {
+          "material": "Speaker Component",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "radio_relay",
@@ -1543,7 +2453,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Sensors",
+          "quantity": 2
+        },
+        {
+          "material": "Speaker Component",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "raider_hatch_key",
@@ -1553,7 +2473,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "rattler",
@@ -1573,7 +2494,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 0
+        }
+      ]
     },
     {
       "id": "red_coral_jewlery",
@@ -1593,7 +2520,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Sensors",
+          "quantity": 1
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 7
+        }
+      ]
     },
     {
       "id": "remote_raider_flare",
@@ -1603,7 +2540,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 1
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "renegade",
@@ -1623,7 +2570,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Synthesized Fuel",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "rocketeer_driver",
@@ -1633,7 +2590,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Electrical Components",
+          "quantity": 2
+        },
+        {
+          "material": "ARC Alloy",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "roots",
@@ -1643,7 +2610,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "rope",
@@ -1653,7 +2626,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 5
+        }
+      ]
     },
     {
       "id": "rosary",
@@ -1663,7 +2642,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "May be worth a few coins."
+      "notes": "May be worth a few coins.",
+      "recycleTo": null
     },
     {
       "id": "rotary_encoder",
@@ -1673,7 +2653,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Electrical Components",
+          "quantity": 2
+        },
+        {
+          "material": "Processor",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "rubber_duck",
@@ -1683,7 +2673,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Always there to lend an ear, should you need it."
+      "notes": "Always there to lend an ear, should you need it.",
+      "recycleTo": null
     },
     {
       "id": "rubber_pad",
@@ -1693,7 +2684,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "rubber_parts",
@@ -1705,7 +2702,8 @@
       "usedInUpgrades": [
         "gear_bench_1"
       ],
-      "notes": ""
+      "notes": "",
+      "recycleTo": null
     },
     {
       "id": "ruined_baton",
@@ -1715,7 +2713,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "ruined_handcuffs",
@@ -1725,7 +2733,13 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "ruined_parachute",
@@ -1735,7 +2749,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 0
+        }
+      ]
     },
     {
       "id": "ruined_riot_shield",
@@ -1745,7 +2765,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 0
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 6
+        }
+      ]
     },
     {
       "id": "rusted_bolts",
@@ -1755,7 +2785,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into metal parts."
+      "notes": "Can be recycled into metal parts.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "rusted_gear",
@@ -1765,7 +2801,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Mechanical Components",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "rusted_tools",
@@ -1777,7 +2823,17 @@
       "usedInUpgrades": [
         "gunsmith_1"
       ],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Steel Spring",
+          "quantity": 1
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "rusty_arc_steel",
@@ -1787,7 +2843,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 8
+        }
+      ]
     },
     {
       "id": "sample_cleaner",
@@ -1797,7 +2859,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Assorted Seeds",
+          "quantity": 4
+        },
+        {
+          "material": "Electrical Components",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "sensors",
@@ -1807,7 +2879,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 1
+        },
+        {
+          "material": "Wires",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "shield_recharger",
@@ -1817,7 +2899,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A handheld kit that gradually recharges shield over time."
+      "notes": "A handheld kit that gradually recharges shield over time.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "showstopper",
@@ -1827,7 +2915,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "omg... is that a toaster? arc raiders reference...?"
+      "notes": "omg... is that a toaster? arc raiders reference...?",
+      "recycleTo": [
+        {
+          "material": "Electrical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Battery",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "shrapnel_grenade",
@@ -1837,7 +2935,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Crude Explosives",
+          "quantity": 1
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "shredder_gyro",
@@ -1847,7 +2955,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 3
+        },
+        {
+          "material": "Mechanical Components",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "signal_amplifier",
@@ -1857,7 +2975,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Electrical Components",
+          "quantity": 2
+        },
+        {
+          "material": "Voltage Converter",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "silver_teaspoon_set",
@@ -1867,7 +2995,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "A shining shimmering set of refinement and elegance."
+      "notes": "A shining shimmering set of refinement and elegance.",
+      "recycleTo": null
     },
     {
       "id": "smoke_grenade",
@@ -1877,7 +3006,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Canister",
+          "quantity": 1
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "snap_blast_grenade",
@@ -1887,7 +3026,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 1
+        },
+        {
+          "material": "Magnet",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "snap_hook",
@@ -1897,7 +3046,17 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "A gadget that allows the user to scale structures and cover large distances."
+      "notes": "A gadget that allows the user to scale structures and cover large distances.",
+      "recycleTo": [
+        {
+          "material": "Power Rod",
+          "quantity": 1
+        },
+        {
+          "material": "Rope",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "speaker_component",
@@ -1907,7 +3066,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used in crafting."
+      "notes": "Used in crafting.",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 2
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "spectrometer",
@@ -1917,7 +3086,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Electrical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Sensors",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "spectrum_analyzer",
@@ -1927,7 +3106,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Exodus Modules",
+          "quantity": 1
+        },
+        {
+          "material": "Sensors",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "spotter_relay",
@@ -1937,7 +3126,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        },
+        {
+          "material": "Electrical Components",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "spring_cushion",
@@ -1947,7 +3146,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recyled into crafting materials."
+      "notes": "Can be recyled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Durable Cloth",
+          "quantity": 2
+        },
+        {
+          "material": "Steel Spring",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "statuette",
@@ -1957,7 +3166,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Worth a small fortune."
+      "notes": "Worth a small fortune.",
+      "recycleTo": null
     },
     {
       "id": "steel_spring",
@@ -1967,7 +3177,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "sterilized_bandage",
@@ -1977,7 +3193,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Antiseptic",
+          "quantity": 1
+        },
+        {
+          "material": "Fabric",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "stitcher",
@@ -1997,7 +3223,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        },
+        {
+          "material": "Mechanical Components",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "synthesized_fuel",
@@ -2009,7 +3245,17 @@
       "usedInUpgrades": [
         "explosives_station_2"
       ],
-      "notes": "Used to craft utility items and explosives. Can be recycled into chemicals."
+      "notes": "Used to craft utility items and explosives. Can be recycled into chemicals.",
+      "recycleTo": [
+        {
+          "material": "Oil",
+          "quantity": 1
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "syringe",
@@ -2019,7 +3265,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft medical supplies. Can be recycled into plastic."
+      "notes": "Used to craft medical supplies. Can be recycled into plastic.",
+      "recycleTo": [
+        {
+          "material": "Chemicals",
+          "quantity": 2
+        },
+        {
+          "material": "Plastic Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "tactical_mk_1",
@@ -2029,7 +3285,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Plastic Parts",
+          "quantity": 3
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "tattered_arc_lining",
@@ -2039,7 +3305,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "tattered_clothes",
@@ -2049,7 +3321,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into fabric."
+      "notes": "Can be recycled into fabric.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "telemetry_transceiver",
@@ -2059,7 +3337,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Advanced Electrical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Processor",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "thermostat",
@@ -2069,7 +3357,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Sensors",
+          "quantity": 1
+        },
+        {
+          "material": "Rubber Parts",
+          "quantity": 7
+        }
+      ]
     },
     {
       "id": "tick_pod",
@@ -2079,7 +3377,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 2
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "torn_blanket",
@@ -2089,7 +3397,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into fabric."
+      "notes": "Can be recycled into fabric.",
+      "recycleTo": [
+        {
+          "material": "Fabric",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "torn_book",
@@ -2099,7 +3413,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "What pages remain speak of chosen heroes, vampires, and lots of longing glances."
+      "notes": "What pages remain speak of chosen heroes, vampires, and lots of longing glances.",
+      "recycleTo": null
     },
     {
       "id": "torrente",
@@ -2119,7 +3434,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Mechanical Components",
+          "quantity": 1
+        },
+        {
+          "material": "Oil",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "vase",
@@ -2129,7 +3454,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Worth a small fortune"
+      "notes": "Worth a small fortune",
+      "recycleTo": null
     },
     {
       "id": "venator",
@@ -2149,7 +3475,8 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "The envy of every Raider. Like sleeping on an especially ergonomic cloud."
+      "notes": "The envy of every Raider. Like sleeping on an especially ergonomic cloud.",
+      "recycleTo": null
     },
     {
       "id": "vita_shot",
@@ -2159,7 +3486,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Syringe",
+          "quantity": 1
+        },
+        {
+          "material": "Chemicals",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "vita_spray",
@@ -2169,7 +3506,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Antiseptic",
+          "quantity": 1
+        },
+        {
+          "material": "Canister",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "volcanic_rock",
@@ -2179,7 +3526,8 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be thrown."
+      "notes": "Can be thrown.",
+      "recycleTo": null
     },
     {
       "id": "voltage_converter",
@@ -2189,7 +3537,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used in crafting."
+      "notes": "Used in crafting.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 1
+        },
+        {
+          "material": "Wires",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "voltage_coverter",
@@ -2219,7 +3577,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into ARC Alloy."
+      "notes": "Can be recycled into ARC Alloy.",
+      "recycleTo": [
+        {
+          "material": "ARC Alloy",
+          "quantity": 1
+        },
+        {
+          "material": "Electrical Components",
+          "quantity": 1
+        }
+      ]
     },
     {
       "id": "water_filter",
@@ -2229,7 +3597,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials"
+      "notes": "Can be recycled into crafting materials",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 2
+        },
+        {
+          "material": "Canister",
+          "quantity": 3
+        }
+      ]
     },
     {
       "id": "water_pump",
@@ -2239,7 +3617,17 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Can be recycled into crafting materials."
+      "notes": "Can be recycled into crafting materials.",
+      "recycleTo": [
+        {
+          "material": "Oil",
+          "quantity": 2
+        },
+        {
+          "material": "Metal Parts",
+          "quantity": 4
+        }
+      ]
     },
     {
       "id": "wires",
@@ -2249,7 +3637,13 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Used to craft a wide range of items. Can be recycled into crafting material."
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting material.",
+      "recycleTo": [
+        {
+          "material": "Rubber Parts",
+          "quantity": 2
+        }
+      ]
     },
     {
       "id": "zipline",
@@ -2259,7 +3653,17 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": ""
+      "notes": "",
+      "recycleTo": [
+        {
+          "material": "Metal Parts",
+          "quantity": 1
+        },
+        {
+          "material": "Rope",
+          "quantity": 1
+        }
+      ]
     }
   ]
 }

@@ -54,6 +54,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <TabBarIcon name="recycle" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="keys"
+        options={{
+          title: 'Keys',
+          tabBarIcon: ({ color }) => <TabBarIcon name="key" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
