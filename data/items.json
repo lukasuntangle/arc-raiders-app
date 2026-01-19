@@ -228,6 +228,16 @@
       "usedInUpgrades": ["gunsmith_3"]
     },
     {
+      "id": "compound_electronics",
+      "name": "Compound Electronics",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["utility_station_3", "expedition_project_1"],
+      "notes": "High-tier component for Utility Station and Expedition"
+    },
+    {
       "id": "compressed_fiber_roll",
       "name": "Compressed Fiber Roll",
       "rarity": "uncommon",
@@ -373,6 +383,16 @@
       "usedInUpgrades": ["gunsmith_2", "gunsmith_3"]
     },
     {
+      "id": "flexible_cable",
+      "name": "Flexible Cable",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["refiner_2"],
+      "notes": "Used for Refiner upgrades"
+    },
+    {
       "id": "flexible_tubing",
       "name": "Flexible Tubing",
       "rarity": "uncommon",
@@ -417,6 +437,16 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": ["scrappy_3"]
+    },
+    {
+      "id": "hardened_gyro_module",
+      "name": "Hardened Gyro Module",
+      "rarity": "epic",
+      "category": "component",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": ["expedition_project_2"],
+      "notes": "Epic component for Expedition Project 2"
     },
     {
       "id": "hardened_plate",
@@ -492,6 +522,16 @@
       "usedInUpgrades": []
     },
     {
+      "id": "insulated_casing",
+      "name": "Insulated Casing",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["refiner_2"],
+      "notes": "Used for Refiner upgrades"
+    },
+    {
       "id": "insulation_foam",
       "name": "Insulation Foam",
       "rarity": "common",
@@ -499,6 +539,16 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": []
+    },
+    {
+      "id": "laboratory_reagents",
+      "name": "Laboratory Reagents",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_2"],
+      "notes": "Used for Explosives Station upgrades"
     },
     {
       "id": "laser_pointer",
@@ -693,6 +743,16 @@
       "usedInUpgrades": ["explosives_station_1"]
     },
     {
+      "id": "pipe_trigger",
+      "name": "Pipe Trigger",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_1"],
+      "notes": "Used for Explosives Station upgrades"
+    },
+    {
       "id": "plastic_casing",
       "name": "Plastic Casing",
       "rarity": "common",
@@ -700,6 +760,16 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": []
+    },
+    {
+      "id": "polymer_acoustic_panel",
+      "name": "Polymer Acoustic Panel",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["expedition_project_1"],
+      "notes": "Used for Expedition Project 1"
     },
     {
       "id": "polymer_grip",
@@ -1009,6 +1079,16 @@
       "usedInUpgrades": []
     },
     {
+      "id": "synthesized_fuel",
+      "name": "Synthesized Fuel",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_2"],
+      "notes": "Used for Explosives Station upgrades"
+    },
+    {
       "id": "synthetic_fluid",
       "name": "Synthetic Fluid",
       "rarity": "uncommon",
@@ -1026,6 +1106,16 @@
       "keepForQuest": false,
       "usedInUpgrades": [],
       "notes": "Sell value item"
+    },
+    {
+      "id": "tension_spring",
+      "name": "Tension Spring",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["utility_station_2"],
+      "notes": "Used for Utility Station upgrades"
     },
     {
       "id": "thermal_paste",
@@ -1072,6 +1162,16 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": []
+    },
+    {
+      "id": "treated_cloth",
+      "name": "Treated Cloth",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["refiner_1"],
+      "notes": "Used for Refiner upgrades"
     },
     {
       "id": "trigger_module",
