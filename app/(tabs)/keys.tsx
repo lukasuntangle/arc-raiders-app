@@ -211,22 +211,22 @@ const styles = StyleSheet.create({
   },
   filterContainer: {
     paddingHorizontal: 16,
-    paddingVertical: 12,
-    gap: 8,
+    paddingVertical: 8,
+    gap: 4,
   },
   filterChip: {
-    paddingHorizontal: 14,
-    paddingVertical: 8,
-    borderRadius: 20,
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 14,
     borderWidth: 1,
-    marginRight: 8,
+    marginRight: 6,
   },
   filterChipActive: {
     backgroundColor: arcColors.teal,
     borderColor: arcColors.teal,
   },
   filterChipText: {
-    fontSize: 13,
+    fontSize: 11,
     fontWeight: '500',
   },
   scrollView: {
