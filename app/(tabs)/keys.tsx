@@ -210,16 +210,18 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   filterContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
     paddingHorizontal: 16,
     paddingVertical: 8,
-    gap: 4,
   },
   filterChip: {
-    paddingHorizontal: 10,
-    paddingVertical: 5,
-    borderRadius: 14,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 16,
     borderWidth: 1,
-    marginRight: 6,
+    marginRight: 8,
+    alignSelf: 'flex-start',
   },
   filterChipActive: {
     backgroundColor: arcColors.teal,
