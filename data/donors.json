@@ -1,0 +1,250 @@
+{
+  "description": "Best Donors - Which items to recycle to get specific components",
+  "donors": {
+    "metal_parts": {
+      "name": "Metal Parts",
+      "priority": "essential",
+      "bestDonors": ["rusted_tools", "hardware_box", "bear_trap", "cleaning_kit"]
+    },
+    "rubber_parts": {
+      "name": "Rubber Parts",
+      "priority": "essential",
+      "bestDonors": ["gas_canister", "flexible_tubing", "hydraulic_fluid"]
+    },
+    "worn_leather": {
+      "name": "Worn Leather",
+      "priority": "essential",
+      "bestDonors": ["leather_strip", "worn_leather"]
+    },
+    "small_spring": {
+      "name": "Small Spring",
+      "priority": "essential",
+      "bestDonors": ["bear_trap", "broken_motor", "cleaning_kit", "laser_pointer"]
+    },
+    "mechanical_parts": {
+      "name": "Mechanical Parts",
+      "priority": "essential",
+      "bestDonors": ["multi_tool", "power_tool_motor", "broken_motor"]
+    },
+    "light_bulb": {
+      "name": "Light Bulb",
+      "priority": "essential",
+      "bestDonors": ["laser_pointer", "light_bulb"]
+    },
+    "prickly_pear": {
+      "name": "Prickly Pear",
+      "priority": "essential",
+      "bestDonors": ["prickly_pear"]
+    },
+    "medical_supplies": {
+      "name": "Medical Supplies",
+      "priority": "essential",
+      "bestDonors": ["survival_kit", "medical_supplies"]
+    },
+    "crude_explosives": {
+      "name": "Crude Explosives",
+      "priority": "essential",
+      "bestDonors": ["crude_explosives", "gas_canister"]
+    },
+    "oxidizer": {
+      "name": "Oxidizer",
+      "priority": "essential",
+      "bestDonors": ["oxidizer", "gas_canister"]
+    },
+    "shrapnel": {
+      "name": "Shrapnel",
+      "priority": "essential",
+      "bestDonors": ["bear_trap", "shrapnel"]
+    },
+    "rusted_tools": {
+      "name": "Rusted Tools",
+      "priority": "essential",
+      "bestDonors": ["rusted_tools", "multi_tool"]
+    },
+    "weapon_parts": {
+      "name": "Weapon Parts",
+      "priority": "core",
+      "bestDonors": ["weapon_parts", "firing_mechanism"]
+    },
+    "polymer_grip": {
+      "name": "Polymer Grip",
+      "priority": "core",
+      "bestDonors": ["polymer_grip"]
+    },
+    "circuit_board": {
+      "name": "Circuit Board",
+      "priority": "core",
+      "bestDonors": ["circuit_board", "processor_board", "rigid_motherboard"]
+    },
+    "precision_screws": {
+      "name": "Precision Screws",
+      "priority": "core",
+      "bestDonors": ["precision_screws", "multi_tool"]
+    },
+    "refined_metal": {
+      "name": "Refined Metal",
+      "priority": "core",
+      "bestDonors": ["refined_metal", "alloy_plates"]
+    },
+    "ballistic_cloth": {
+      "name": "Ballistic Cloth",
+      "priority": "core",
+      "bestDonors": ["ballistic_cloth", "durable_cloth"]
+    },
+    "thick_pad": {
+      "name": "Thick Pad",
+      "priority": "core",
+      "bestDonors": ["thick_pad"]
+    },
+    "durable_cloth": {
+      "name": "Durable Cloth",
+      "priority": "core",
+      "bestDonors": ["durable_cloth", "compressed_fiber_roll"]
+    },
+    "heavy_spring": {
+      "name": "Heavy Spring",
+      "priority": "core",
+      "bestDonors": ["heavy_spring", "bear_trap"]
+    },
+    "impact_head": {
+      "name": "Impact Head",
+      "priority": "core",
+      "bestDonors": ["impact_head"]
+    },
+    "sturdy_handle": {
+      "name": "Sturdy Handle",
+      "priority": "core",
+      "bestDonors": ["sturdy_handle", "multi_tool"]
+    },
+    "timer_unit": {
+      "name": "Timer Unit",
+      "priority": "core",
+      "bestDonors": ["timer_unit"]
+    },
+    "control_module": {
+      "name": "Control Module",
+      "priority": "core",
+      "bestDonors": ["control_module"]
+    },
+    "propellant": {
+      "name": "Propellant",
+      "priority": "core",
+      "bestDonors": ["propellant", "gas_canister"]
+    },
+    "energy_cell": {
+      "name": "Energy Cell",
+      "priority": "core",
+      "bestDonors": ["energy_cell", "arc_battery_cell"]
+    },
+    "flexible_tubing": {
+      "name": "Flexible Tubing",
+      "priority": "core",
+      "bestDonors": ["flexible_tubing", "hydraulic_fluid"]
+    },
+    "rad_filter": {
+      "name": "Rad Filter",
+      "priority": "core",
+      "bestDonors": ["rad_filter", "gas_canister"]
+    },
+    "survival_kit": {
+      "name": "Survival Kit",
+      "priority": "core",
+      "bestDonors": ["survival_kit"]
+    },
+    "synthetic_fluid": {
+      "name": "Synthetic Fluid",
+      "priority": "core",
+      "bestDonors": ["synthetic_fluid", "hydraulic_fluid"]
+    },
+    "advanced_tools": {
+      "name": "Advanced Tools",
+      "priority": "high_tier",
+      "bestDonors": ["advanced_tools", "multi_tool"]
+    },
+    "fine_electronics": {
+      "name": "Fine Electronics",
+      "priority": "high_tier",
+      "bestDonors": ["fine_electronics", "processor_board", "rigid_motherboard"]
+    },
+    "firing_mechanism": {
+      "name": "Firing Mechanism",
+      "priority": "high_tier",
+      "bestDonors": ["firing_mechanism"]
+    },
+    "compact_mechanism": {
+      "name": "Compact Mechanism",
+      "priority": "high_tier",
+      "bestDonors": ["compact_mechanism"]
+    },
+    "optics_unit": {
+      "name": "Optics Unit",
+      "priority": "high_tier",
+      "bestDonors": ["optics_unit", "laser_pointer"]
+    },
+    "hardened_plate": {
+      "name": "Hardened Plate",
+      "priority": "high_tier",
+      "bestDonors": ["hardened_plate", "alloy_plates"]
+    },
+    "reinforced_fabric": {
+      "name": "Reinforced Fabric",
+      "priority": "high_tier",
+      "bestDonors": ["reinforced_fabric", "ballistic_cloth"]
+    },
+    "heat_resistant_fabric": {
+      "name": "Heat-Resistant Fabric",
+      "priority": "high_tier",
+      "bestDonors": ["heat_resistant_fabric"]
+    },
+    "gyro_module": {
+      "name": "Gyro Module",
+      "priority": "high_tier",
+      "bestDonors": ["gyro_module"]
+    },
+    "servo_motor": {
+      "name": "Servo Motor",
+      "priority": "high_tier",
+      "bestDonors": ["servo_motor", "synth_motor"]
+    },
+    "lightweight_frame": {
+      "name": "Lightweight Frame",
+      "priority": "high_tier",
+      "bestDonors": ["lightweight_frame"]
+    },
+    "explosive_compound": {
+      "name": "Explosive Compound",
+      "priority": "high_tier",
+      "bestDonors": ["explosive_compound"]
+    },
+    "stabilizer": {
+      "name": "Stabilizer",
+      "priority": "high_tier",
+      "bestDonors": ["stabilizer"]
+    },
+    "trigger_module": {
+      "name": "Trigger Module",
+      "priority": "high_tier",
+      "bestDonors": ["trigger_module"]
+    },
+    "power_cell": {
+      "name": "Power Cell",
+      "priority": "high_tier",
+      "bestDonors": ["power_cell", "arc_battery_cell"]
+    },
+    "resin_driver": {
+      "name": "Resin Driver",
+      "priority": "high_tier",
+      "bestDonors": ["resin_driver"]
+    },
+    "cat_bell": {
+      "name": "Cat Bell",
+      "priority": "uncategorized",
+      "bestDonors": ["cat_bell"]
+    },
+    "alloy_plates": {
+      "name": "Alloy Plates",
+      "priority": "uncategorized",
+      "bestDonors": ["alloy_plates", "refined_metal"]
+    }
+  }
+}

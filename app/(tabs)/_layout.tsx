@@ -47,6 +47,13 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <TabBarIcon name="crosshairs" color={color} />,
         }}
       />
+      <Tabs.Screen
+        name="donors"
+        options={{
+          title: 'Donors',
+          tabBarIcon: ({ color }) => <TabBarIcon name="recycle" color={color} />,
+        }}
+      />
     </Tabs>
   );
 }
