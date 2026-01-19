@@ -40,6 +40,8 @@ export default function KeysScreen() {
         return '#5AAD5A';
       case 'Spaceport':
         return '#9B59B6';
+      case 'Stella Montis':
+        return '#E74C3C';
       default:
         return arcColors.teal;
     }

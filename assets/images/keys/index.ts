@@ -111,6 +111,32 @@ export const keyLocations: KeyLocation[] = [
     location: 'Spaceport',
     image: require('./Spaceport - Warehouse Key.png'),
   },
+
+  // Stella Montis
+  {
+    id: 'stella_montis_admin',
+    name: 'Admin Key',
+    location: 'Stella Montis',
+    image: require('./Stella Montis - Admin Key.png'),
+  },
+  {
+    id: 'stella_montis_medical_vault',
+    name: 'Medical Vault Key',
+    location: 'Stella Montis',
+    image: require('./Stella Montis - Medical Vault Key.png'),
+  },
+  {
+    id: 'stella_montis_security',
+    name: 'Security Checkpoint',
+    location: 'Stella Montis',
+    image: require('./Stella Montis - Security Checkpoint.png'),
+  },
+  {
+    id: 'stella_montis_storage',
+    name: 'Storage',
+    location: 'Stella Montis',
+    image: require('./Stella Montis - Storage.png'),
+  },
 ];
 
 // Get all unique locations
