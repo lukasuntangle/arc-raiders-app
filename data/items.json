@@ -510,6 +510,16 @@
       "usedInUpgrades": []
     },
     {
+      "id": "leaper_pulse_unit",
+      "name": "Leaper Pulse Unit",
+      "rarity": "epic",
+      "category": "component",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "High-tier component, keep for upgrades"
+    },
+    {
       "id": "leather_strip",
       "name": "Leather Strip",
       "rarity": "common",
