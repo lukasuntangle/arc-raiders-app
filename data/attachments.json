@@ -1,0 +1,268 @@
+{
+  "attachments": [
+    {
+      "id": "no_grip",
+      "name": "No Grip",
+      "type": "grip",
+      "tier": 0,
+      "stats": {
+        "horizontalRecoil": 0,
+        "verticalRecoil": 0
+      }
+    },
+    {
+      "id": "angled_grip_1",
+      "name": "Angled Grip I",
+      "type": "grip",
+      "tier": 1,
+      "stats": {
+        "horizontalRecoil": -20,
+        "verticalRecoil": 0
+      }
+    },
+    {
+      "id": "angled_grip_2",
+      "name": "Angled Grip II",
+      "type": "grip",
+      "tier": 2,
+      "stats": {
+        "horizontalRecoil": -30,
+        "verticalRecoil": 0
+      }
+    },
+    {
+      "id": "angled_grip_3",
+      "name": "Angled Grip III",
+      "type": "grip",
+      "tier": 3,
+      "stats": {
+        "horizontalRecoil": -40,
+        "verticalRecoil": 0
+      }
+    },
+    {
+      "id": "vertical_grip_1",
+      "name": "Vertical Grip I",
+      "type": "grip",
+      "tier": 1,
+      "stats": {
+        "horizontalRecoil": 0,
+        "verticalRecoil": -20
+      }
+    },
+    {
+      "id": "vertical_grip_2",
+      "name": "Vertical Grip II",
+      "type": "grip",
+      "tier": 2,
+      "stats": {
+        "horizontalRecoil": 0,
+        "verticalRecoil": -30
+      }
+    },
+    {
+      "id": "vertical_grip_3",
+      "name": "Vertical Grip III",
+      "type": "grip",
+      "tier": 3,
+      "stats": {
+        "horizontalRecoil": 0,
+        "verticalRecoil": -40
+      }
+    },
+    {
+      "id": "horizontal_grip",
+      "name": "Horizontal Grip",
+      "type": "grip",
+      "tier": 2,
+      "stats": {
+        "horizontalRecoil": -50,
+        "verticalRecoil": 20
+      }
+    },
+    {
+      "id": "no_stock",
+      "name": "No Stock",
+      "type": "stock",
+      "tier": 0,
+      "stats": {
+        "dispersionRecoveryTime": 0,
+        "recoilRecoveryTime": 0,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "stable_stock_1",
+      "name": "Stable Stock I",
+      "type": "stock",
+      "tier": 1,
+      "stats": {
+        "dispersionRecoveryTime": -20,
+        "recoilRecoveryTime": -20,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "stable_stock_2",
+      "name": "Stable Stock II",
+      "type": "stock",
+      "tier": 2,
+      "stats": {
+        "dispersionRecoveryTime": -35,
+        "recoilRecoveryTime": -35,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "stable_stock_3",
+      "name": "Stable Stock III",
+      "type": "stock",
+      "tier": 3,
+      "stats": {
+        "dispersionRecoveryTime": -50,
+        "recoilRecoveryTime": -50,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "padded_stock_1",
+      "name": "Padded Stock I",
+      "type": "stock",
+      "tier": 1,
+      "stats": {
+        "recoilRecoveryTime": -18,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "padded_stock_2",
+      "name": "Padded Stock II",
+      "type": "stock",
+      "tier": 2,
+      "stats": {
+        "recoilRecoveryTime": -27,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "padded_stock_3",
+      "name": "Padded Stock III",
+      "type": "stock",
+      "tier": 3,
+      "stats": {
+        "recoilRecoveryTime": -38,
+        "equipUnequipTime": 0
+      }
+    },
+    {
+      "id": "lightweight_stock",
+      "name": "Lightweight Stock",
+      "type": "stock",
+      "tier": 2,
+      "stats": {
+        "recoilRecoveryTime": 25,
+        "equipUnequipTime": -30
+      }
+    },
+    {
+      "id": "extended_barrel",
+      "name": "Extended Barrel",
+      "type": "barrel",
+      "tier": 2,
+      "stats": {
+        "bulletVelocity": 25
+      }
+    },
+    {
+      "id": "no_muzzle",
+      "name": "No Muzzle",
+      "type": "muzzle",
+      "tier": 0,
+      "stats": {
+        "perShotDispersion": 0,
+        "noiseReduction": 0
+      }
+    },
+    {
+      "id": "compensator",
+      "name": "Compensator",
+      "type": "muzzle",
+      "tier": 2,
+      "stats": {
+        "perShotDispersion": -25
+      }
+    },
+    {
+      "id": "compensator_1",
+      "name": "Compensator I",
+      "type": "muzzle",
+      "tier": 1,
+      "stats": {
+        "perShotDispersion": -5
+      }
+    },
+    {
+      "id": "compensator_2",
+      "name": "Compensator II",
+      "type": "muzzle",
+      "tier": 2,
+      "stats": {
+        "perShotDispersion": -15
+      }
+    },
+    {
+      "id": "compensator_3",
+      "name": "Compensator III",
+      "type": "muzzle",
+      "tier": 3,
+      "stats": {
+        "perShotDispersion": -25
+      }
+    },
+    {
+      "id": "silencer",
+      "name": "Silencer",
+      "type": "muzzle",
+      "tier": 2,
+      "stats": {
+        "noiseReduction": -60
+      }
+    },
+    {
+      "id": "muzzle_brake",
+      "name": "Muzzle Brake",
+      "type": "muzzle",
+      "tier": 2,
+      "stats": {
+        "horizontalRecoil": -30,
+        "verticalRecoil": -40
+      }
+    }
+  ],
+  "magazineSizes": {
+    "light": {
+      "tiers": [
+        { "tier": 1, "capacities": [20, 20, 8, 12, 20, 24, 10, 8, 8, 25, 5, 6] },
+        { "tier": 2, "capacities": [25, 25, 13, 17, 25, 28, 14, 12, 12, 29, 7, 8] },
+        { "tier": 3, "capacities": [30, 30, 18, 22, 30, 32, 18, 16, 16, 33, 11, 10] },
+        { "tier": 4, "capacities": [35, 35, 23, 27, 35, 36, 22, 20, 20, 37, 11, 12] }
+      ]
+    },
+    "medium": {
+      "tiers": [
+        { "tier": 1, "capacities": [20, 20, 8, 12, 20, 24, 10, 8, 8, 25, 5, 6] },
+        { "tier": 2, "capacities": [25, 25, 13, 17, 25, 28, 14, 12, 12, 29, 7, 8] },
+        { "tier": 3, "capacities": [30, 30, 18, 22, 30, 32, 18, 16, 16, 33, 11, 10] },
+        { "tier": 4, "capacities": [35, 35, 23, 27, 35, 36, 22, 20, 20, 37, 11, 12] }
+      ]
+    },
+    "shotgun": {
+      "tiers": [
+        { "tier": 1, "capacities": [5, 6] },
+        { "tier": 2, "capacities": [7, 8] },
+        { "tier": 3, "capacities": [9, 10] },
+        { "tier": 4, "capacities": [11, 12] }
+      ]
+    }
+  }
+}

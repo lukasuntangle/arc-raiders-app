@@ -1,0 +1,1061 @@
+{
+  "items": [
+    {
+      "id": "acid",
+      "name": "Acid",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "advanced_tools",
+      "name": "Advanced Tools",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_2", "gear_bench_2"]
+    },
+    {
+      "id": "aeration_processor",
+      "name": "Aeration Processor",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "alloy_plates",
+      "name": "Alloy Plates",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_3"]
+    },
+    {
+      "id": "ammo_box_grey",
+      "name": "Ammo Box (Grey)",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "ammo_box_green",
+      "name": "Ammo Box (Green)",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "arc_battery_cell",
+      "name": "ARC Battery Cell",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "backup_fuse",
+      "name": "Backup Fuse",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "ballistic_cloth",
+      "name": "Ballistic Cloth",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_2", "gear_bench_3"]
+    },
+    {
+      "id": "basic_synth_fiber",
+      "name": "Basic Synth Fiber",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "bear_trap",
+      "name": "Bear Trap",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "brass_fitting",
+      "name": "Brass Fitting",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "broken_arc_tool",
+      "name": "Broken ARC Tool",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "broken_motor",
+      "name": "Broken Motor",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "burnt_coil",
+      "name": "Burnt Coil",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "canned_food",
+      "name": "Canned Food",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "cat_bell",
+      "name": "Cat Bell",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_3"]
+    },
+    {
+      "id": "ceramic_fragment",
+      "name": "Ceramic Fragment",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "circuit_board",
+      "name": "Circuit Board",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_2", "medical_lab_2"]
+    },
+    {
+      "id": "cleaning_kit",
+      "name": "Cleaning Kit",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "coarse_fabric",
+      "name": "Coarse Fabric",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "combat_drone_motherboard",
+      "name": "Combat Drone Motherboard",
+      "rarity": "epic",
+      "category": "component",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "compact_mechanism",
+      "name": "Compact Mechanism",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_3"]
+    },
+    {
+      "id": "compressed_fiber_roll",
+      "name": "Compressed Fiber Roll",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "control_module",
+      "name": "Control Module",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_2"]
+    },
+    {
+      "id": "copper_wire",
+      "name": "Copper Wire",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "corroded_gear",
+      "name": "Corroded Gear",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "cracked_lens",
+      "name": "Cracked Lens",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "crude_explosives",
+      "name": "Crude Explosives",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_1"]
+    },
+    {
+      "id": "crushed_ceramics",
+      "name": "Crushed Ceramics",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "damaged_heat_sink",
+      "name": "Damaged Heat Sink",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "dense_polymer",
+      "name": "Dense Polymer",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "durable_cloth",
+      "name": "Durable Cloth",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_2"]
+    },
+    {
+      "id": "electronics_scrap",
+      "name": "Electronics Scrap",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "energy_cell",
+      "name": "Energy Cell",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["utility_station_2"]
+    },
+    {
+      "id": "explosive_compound",
+      "name": "Explosive Compound",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_2", "explosives_station_3"]
+    },
+    {
+      "id": "fine_electronics",
+      "name": "Fine Electronics",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_3", "medical_lab_3"]
+    },
+    {
+      "id": "firing_mechanism",
+      "name": "Firing Mechanism",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_2", "gunsmith_3"]
+    },
+    {
+      "id": "flexible_tubing",
+      "name": "Flexible Tubing",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["medical_lab_2"]
+    },
+    {
+      "id": "gas_canister",
+      "name": "Gas Canister",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "glass_shard",
+      "name": "Glass Shard",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "gold_bar",
+      "name": "Gold Bar",
+      "rarity": "epic",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "High sell value"
+    },
+    {
+      "id": "gyro_module",
+      "name": "Gyro Module",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_3"]
+    },
+    {
+      "id": "hardened_plate",
+      "name": "Hardened Plate",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_3"]
+    },
+    {
+      "id": "hardware_box",
+      "name": "Hardware Box",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "heat_resistant_fabric",
+      "name": "Heat-Resistant Fabric",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_3"]
+    },
+    {
+      "id": "heavy_spring",
+      "name": "Heavy Spring",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_2"]
+    },
+    {
+      "id": "hydraulic_fluid",
+      "name": "Hydraulic Fluid",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "impact_head",
+      "name": "Impact Head",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_2"]
+    },
+    {
+      "id": "industrial_glue",
+      "name": "Industrial Glue",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "insulation_foam",
+      "name": "Insulation Foam",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "laser_pointer",
+      "name": "Laser Pointer",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "leather_strip",
+      "name": "Leather Strip",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "light_bulb",
+      "name": "Light Bulb",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["utility_station_1"]
+    },
+    {
+      "id": "lightweight_frame",
+      "name": "Lightweight Frame",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_3"]
+    },
+    {
+      "id": "magnet",
+      "name": "Magnet",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "makeshift_battery",
+      "name": "Makeshift Battery",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "mechanical_parts",
+      "name": "Mechanical Parts",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_1", "scrappy_1"]
+    },
+    {
+      "id": "medical_supplies",
+      "name": "Medical Supplies",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["medical_lab_1", "medical_lab_2"]
+    },
+    {
+      "id": "metal_parts",
+      "name": "Metal Parts",
+      "rarity": "common",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_1", "gear_bench_1", "scrappy_1"]
+    },
+    {
+      "id": "metal_scrap",
+      "name": "Metal Scrap",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "military_grade_adhesive",
+      "name": "Military Grade Adhesive",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "modified_targeting_system",
+      "name": "Modified Targeting System",
+      "rarity": "epic",
+      "category": "component",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "motor_oil",
+      "name": "Motor Oil",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "multi_tool",
+      "name": "Multi-Tool",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "nails",
+      "name": "Nails",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "old_coin",
+      "name": "Old Coin",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "optics_unit",
+      "name": "Optics Unit",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_3"]
+    },
+    {
+      "id": "oxidizer",
+      "name": "Oxidizer",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_1"]
+    },
+    {
+      "id": "plastic_casing",
+      "name": "Plastic Casing",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "polymer_grip",
+      "name": "Polymer Grip",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_2"]
+    },
+    {
+      "id": "power_cell",
+      "name": "Power Cell",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["utility_station_3"]
+    },
+    {
+      "id": "power_tool_motor",
+      "name": "Power Tool Motor",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "precision_screws",
+      "name": "Precision Screws",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_2"]
+    },
+    {
+      "id": "pressure_gauge",
+      "name": "Pressure Gauge",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "prickly_pear",
+      "name": "Prickly Pear",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["medical_lab_1"]
+    },
+    {
+      "id": "processor_board",
+      "name": "Processor Board",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "propellant",
+      "name": "Propellant",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_2"]
+    },
+    {
+      "id": "rad_filter",
+      "name": "Rad Filter",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["medical_lab_2"]
+    },
+    {
+      "id": "raw_meat",
+      "name": "Raw Meat",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "refined_metal",
+      "name": "Refined Metal",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_2", "gunsmith_2"]
+    },
+    {
+      "id": "reinforced_fabric",
+      "name": "Reinforced Fabric",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_3"]
+    },
+    {
+      "id": "reinforced_plating",
+      "name": "Reinforced Plating",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "resin_driver",
+      "name": "Resin Driver",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["refiner_2"]
+    },
+    {
+      "id": "rigid_motherboard",
+      "name": "Rigid Motherboard",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "rubber_parts",
+      "name": "Rubber Parts",
+      "rarity": "common",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_1"]
+    },
+    {
+      "id": "rusted_gear",
+      "name": "Rusted Gear",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "rusted_tools",
+      "name": "Rusted Tools",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_1"]
+    },
+    {
+      "id": "salvaged_wiring",
+      "name": "Salvaged Wiring",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "scrap_metal",
+      "name": "Scrap Metal",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "sensor_array",
+      "name": "Sensor Array",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "servo_motor",
+      "name": "Servo Motor",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_3"]
+    },
+    {
+      "id": "shrapnel",
+      "name": "Shrapnel",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_1"]
+    },
+    {
+      "id": "signal_booster",
+      "name": "Signal Booster",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "silver_watch",
+      "name": "Silver Watch",
+      "rarity": "rare",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "High sell value"
+    },
+    {
+      "id": "small_spring",
+      "name": "Small Spring",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_1"]
+    },
+    {
+      "id": "solvent",
+      "name": "Solvent",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "stabilizer",
+      "name": "Stabilizer",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_3"]
+    },
+    {
+      "id": "stamped_plate_unit",
+      "name": "Stamped Plate Unit",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "steel_bearings",
+      "name": "Steel Bearings",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "storage_module",
+      "name": "Storage Module",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "sturdy_handle",
+      "name": "Sturdy Handle",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["scrappy_2"]
+    },
+    {
+      "id": "survival_kit",
+      "name": "Survival Kit",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["medical_lab_2"]
+    },
+    {
+      "id": "synth_motor",
+      "name": "Synth Motor",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "synthetic_fluid",
+      "name": "Synthetic Fluid",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["medical_lab_2"]
+    },
+    {
+      "id": "tarnished_ring",
+      "name": "Tarnished Ring",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Sell value item"
+    },
+    {
+      "id": "thermal_paste",
+      "name": "Thermal Paste",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "thick_pad",
+      "name": "Thick Pad",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_2"]
+    },
+    {
+      "id": "timer_unit",
+      "name": "Timer Unit",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_2"]
+    },
+    {
+      "id": "titanium_bar",
+      "name": "Titanium Bar",
+      "rarity": "epic",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Very valuable, keep for high-tier crafting"
+    },
+    {
+      "id": "transistor",
+      "name": "Transistor",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "trigger_module",
+      "name": "Trigger Module",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["explosives_station_3"]
+    },
+    {
+      "id": "vacuum_tube",
+      "name": "Vacuum Tube",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "water_bottle",
+      "name": "Water Bottle",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "weapon_parts",
+      "name": "Weapon Parts",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gunsmith_1", "gunsmith_2"]
+    },
+    {
+      "id": "wire_bundle",
+      "name": "Wire Bundle",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": []
+    },
+    {
+      "id": "worn_leather",
+      "name": "Worn Leather",
+      "rarity": "common",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": ["gear_bench_1"]
+    }
+  ]
+}

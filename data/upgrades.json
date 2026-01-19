@@ -1,0 +1,216 @@
+{
+  "upgrades": [
+    {
+      "id": "gunsmith_1",
+      "name": "Gunsmith Level 1",
+      "station": "gunsmith",
+      "level": 1,
+      "requirements": [
+        { "itemId": "metal_parts", "itemName": "Metal Parts", "quantity": 1000 },
+        { "itemId": "mechanical_parts", "itemName": "Mechanical Parts", "quantity": 540 },
+        { "itemId": "rusted_tools", "itemName": "Rusted Tools", "quantity": 8 },
+        { "itemId": "weapon_parts", "itemName": "Weapon Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "gunsmith_2",
+      "name": "Gunsmith Level 2",
+      "station": "gunsmith",
+      "level": 2,
+      "requirements": [
+        { "itemId": "refined_metal", "itemName": "Refined Metal", "quantity": 2000 },
+        { "itemId": "circuit_board", "itemName": "Circuit Board", "quantity": 8 },
+        { "itemId": "firing_mechanism", "itemName": "Firing Mechanism", "quantity": 5 },
+        { "itemId": "precision_screws", "itemName": "Precision Screws", "quantity": 8 },
+        { "itemId": "polymer_grip", "itemName": "Polymer Grip", "quantity": 5 },
+        { "itemId": "weapon_parts", "itemName": "Weapon Parts", "quantity": 12 },
+        { "itemId": "advanced_tools", "itemName": "Advanced Tools", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "gunsmith_3",
+      "name": "Gunsmith Level 3",
+      "station": "gunsmith",
+      "level": 3,
+      "requirements": [
+        { "itemId": "fine_electronics", "itemName": "Fine Electronics", "quantity": 8 },
+        { "itemId": "compact_mechanism", "itemName": "Compact Mechanism", "quantity": 5 },
+        { "itemId": "optics_unit", "itemName": "Optics Unit", "quantity": 3 },
+        { "itemId": "firing_mechanism", "itemName": "Firing Mechanism", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "gear_bench_1",
+      "name": "Gear Bench Level 1",
+      "station": "gear_bench",
+      "level": 1,
+      "requirements": [
+        { "itemId": "metal_parts", "itemName": "Metal Parts", "quantity": 1000 },
+        { "itemId": "rubber_parts", "itemName": "Rubber Parts", "quantity": 640 },
+        { "itemId": "worn_leather", "itemName": "Worn Leather", "quantity": 540 }
+      ]
+    },
+    {
+      "id": "gear_bench_2",
+      "name": "Gear Bench Level 2",
+      "station": "gear_bench",
+      "level": 2,
+      "requirements": [
+        { "itemId": "refined_metal", "itemName": "Refined Metal", "quantity": 2000 },
+        { "itemId": "durable_cloth", "itemName": "Durable Cloth", "quantity": 1000 },
+        { "itemId": "ballistic_cloth", "itemName": "Ballistic Cloth", "quantity": 640 },
+        { "itemId": "thick_pad", "itemName": "Thick Pad", "quantity": 8 },
+        { "itemId": "advanced_tools", "itemName": "Advanced Tools", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "gear_bench_3",
+      "name": "Gear Bench Level 3",
+      "station": "gear_bench",
+      "level": 3,
+      "requirements": [
+        { "itemId": "hardened_plate", "itemName": "Hardened Plate", "quantity": 5 },
+        { "itemId": "reinforced_fabric", "itemName": "Reinforced Fabric", "quantity": 8 },
+        { "itemId": "heat_resistant_fabric", "itemName": "Heat-Resistant Fabric", "quantity": 5 },
+        { "itemId": "alloy_plates", "itemName": "Alloy Plates", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "medical_lab_1",
+      "name": "Medical Lab Level 1",
+      "station": "medical_lab",
+      "level": 1,
+      "requirements": [
+        { "itemId": "medical_supplies", "itemName": "Medical Supplies", "quantity": 8 },
+        { "itemId": "prickly_pear", "itemName": "Prickly Pear", "quantity": 15 }
+      ]
+    },
+    {
+      "id": "medical_lab_2",
+      "name": "Medical Lab Level 2",
+      "station": "medical_lab",
+      "level": 2,
+      "requirements": [
+        { "itemId": "medical_supplies", "itemName": "Medical Supplies", "quantity": 12 },
+        { "itemId": "circuit_board", "itemName": "Circuit Board", "quantity": 5 },
+        { "itemId": "flexible_tubing", "itemName": "Flexible Tubing", "quantity": 8 },
+        { "itemId": "rad_filter", "itemName": "Rad Filter", "quantity": 5 },
+        { "itemId": "survival_kit", "itemName": "Survival Kit", "quantity": 3 },
+        { "itemId": "synthetic_fluid", "itemName": "Synthetic Fluid", "quantity": 640 }
+      ]
+    },
+    {
+      "id": "medical_lab_3",
+      "name": "Medical Lab Level 3",
+      "station": "medical_lab",
+      "level": 3,
+      "requirements": [
+        { "itemId": "fine_electronics", "itemName": "Fine Electronics", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "scrappy_1",
+      "name": "Scrappy Level 1",
+      "station": "scrappy",
+      "level": 1,
+      "requirements": [
+        { "itemId": "metal_parts", "itemName": "Metal Parts", "quantity": 1000 },
+        { "itemId": "mechanical_parts", "itemName": "Mechanical Parts", "quantity": 540 },
+        { "itemId": "small_spring", "itemName": "Small Spring", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "scrappy_2",
+      "name": "Scrappy Level 2",
+      "station": "scrappy",
+      "level": 2,
+      "requirements": [
+        { "itemId": "heavy_spring", "itemName": "Heavy Spring", "quantity": 8 },
+        { "itemId": "impact_head", "itemName": "Impact Head", "quantity": 5 },
+        { "itemId": "sturdy_handle", "itemName": "Sturdy Handle", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "scrappy_3",
+      "name": "Scrappy Level 3",
+      "station": "scrappy",
+      "level": 3,
+      "requirements": [
+        { "itemId": "cat_bell", "itemName": "Cat Bell", "quantity": 3 },
+        { "itemId": "gyro_module", "itemName": "Gyro Module", "quantity": 3 },
+        { "itemId": "lightweight_frame", "itemName": "Lightweight Frame", "quantity": 3 },
+        { "itemId": "servo_motor", "itemName": "Servo Motor", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "explosives_station_1",
+      "name": "Explosives Station Level 1",
+      "station": "explosives_station",
+      "level": 1,
+      "requirements": [
+        { "itemId": "crude_explosives", "itemName": "Crude Explosives", "quantity": 8 },
+        { "itemId": "oxidizer", "itemName": "Oxidizer", "quantity": 8 },
+        { "itemId": "shrapnel", "itemName": "Shrapnel", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "explosives_station_2",
+      "name": "Explosives Station Level 2",
+      "station": "explosives_station",
+      "level": 2,
+      "requirements": [
+        { "itemId": "explosive_compound", "itemName": "Explosive Compound", "quantity": 5 },
+        { "itemId": "control_module", "itemName": "Control Module", "quantity": 3 },
+        { "itemId": "propellant", "itemName": "Propellant", "quantity": 8 },
+        { "itemId": "timer_unit", "itemName": "Timer Unit", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "explosives_station_3",
+      "name": "Explosives Station Level 3",
+      "station": "explosives_station",
+      "level": 3,
+      "requirements": [
+        { "itemId": "explosive_compound", "itemName": "Explosive Compound", "quantity": 8 },
+        { "itemId": "stabilizer", "itemName": "Stabilizer", "quantity": 3 },
+        { "itemId": "trigger_module", "itemName": "Trigger Module", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "refiner_2",
+      "name": "Refiner Level 2",
+      "station": "refiner",
+      "level": 2,
+      "requirements": [
+        { "itemId": "resin_driver", "itemName": "Resin Driver", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "utility_station_1",
+      "name": "Utility Station Level 1",
+      "station": "utility_station",
+      "level": 1,
+      "requirements": [
+        { "itemId": "light_bulb", "itemName": "Light Bulb", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "utility_station_2",
+      "name": "Utility Station Level 2",
+      "station": "utility_station",
+      "level": 2,
+      "requirements": [
+        { "itemId": "energy_cell", "itemName": "Energy Cell", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "utility_station_3",
+      "name": "Utility Station Level 3",
+      "station": "utility_station",
+      "level": 3,
+      "requirements": [
+        { "itemId": "power_cell", "itemName": "Power Cell", "quantity": 3 }
+      ]
+    }
+  ]
+}
