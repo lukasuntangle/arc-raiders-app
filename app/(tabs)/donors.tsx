@@ -1,212 +1,206 @@
-import React, { useState, useCallback, useMemo } from 'react';
-import { StyleSheet, FlatList, View, Text, TouchableOpacity, SafeAreaView } from 'react-native';
+import React, { useState, useMemo } from 'react';
+import {
+  StyleSheet,
+  View,
+  Text,
+  SafeAreaView,
+  FlatList,
+  TouchableOpacity,
+  TextInput,
+} from 'react-native';
 import { useColorScheme } from '@/components/useColorScheme';
-import Colors, { arcColors } from '@/constants/Colors';
-import { SearchBar } from '@/components/SearchBar';
+import Colors, { arcColors, rarityColors } from '@/constants/Colors';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
-import donorsData from '@/data/donors.json';
-import itemsData from '@/data/items.json';
+import lootData from '@/data/loot.json';
 
-type Priority = 'essential' | 'core' | 'high_tier' | 'uncategorized';
-
-interface DonorEntry {
+type LootItem = {
   id: string;
   name: string;
-  priority: Priority;
-  bestDonors: string[];
+  rarity: string;
+  recyclesInto: { material: string; quantity: number }[];
+};
+
+type MaterialDonor = {
+  item: LootItem;
+  quantity: number;
+};
+
+// Build a map of materials to their best donors
+function buildMaterialDonorsMap(loot: LootItem[]): Map<string, MaterialDonor[]> {
+  const map = new Map<string, MaterialDonor[]>();
+
+  for (const item of loot) {
+    for (const output of item.recyclesInto) {
+      const donors = map.get(output.material) || [];
+      donors.push({ item, quantity: output.quantity });
+      map.set(output.material, donors);
+    }
+  }
+
+  // Sort each material's donors by quantity (descending)
+  for (const [material, donors] of map) {
+    donors.sort((a, b) => b.quantity - a.quantity);
+    map.set(material, donors);
+  }
+
+  return map;
 }
 
-const priorityConfig: Record<Priority, { label: string; color: string; order: number }> = {
-  essential: { label: 'ESSENTIAL', color: arcColors.teal, order: 1 },
-  core: { label: 'CORE', color: arcColors.gold, order: 2 },
-  high_tier: { label: 'HIGH-TIER', color: '#A855F7', order: 3 },
-  uncategorized: { label: 'OTHER', color: '#6B7280', order: 4 },
-};
+// Get all unique materials sorted alphabetically
+function getAllMaterials(loot: LootItem[]): string[] {
+  const materials = new Set<string>();
+  for (const item of loot) {
+    for (const output of item.recyclesInto) {
+      materials.add(output.material);
+    }
+  }
+  return Array.from(materials).sort();
+}
 
 export default function DonorsScreen() {
   const colorScheme = useColorScheme() ?? 'dark';
   const colors = Colors[colorScheme];
-
   const [searchQuery, setSearchQuery] = useState('');
-  const [expandedId, setExpandedId] = useState<string | null>(null);
-  const [filterPriority, setFilterPriority] = useState<Priority | 'all'>('all');
+  const [expandedMaterial, setExpandedMaterial] = useState<string | null>(null);
 
-  // Convert donors object to array
-  const donorsList = useMemo(() => {
-    return Object.entries(donorsData.donors).map(([id, data]) => ({
-      id,
-      ...(data as Omit<DonorEntry, 'id'>),
-    }));
-  }, []);
-
-  // Create item lookup map
-  const itemsMap = useMemo(() => {
-    const map: Record<string, { name: string; rarity: string }> = {};
-    itemsData.items.forEach((item) => {
-      map[item.id] = { name: item.name, rarity: item.rarity };
-    });
-    return map;
-  }, []);
-
-  // Filter and sort donors
-  const filteredDonors = useMemo(() => {
-    let filtered = donorsList;
-
-    if (searchQuery) {
-      const query = searchQuery.toLowerCase();
-      filtered = filtered.filter((d) => d.name.toLowerCase().includes(query));
-    }
-
-    if (filterPriority !== 'all') {
-      filtered = filtered.filter((d) => d.priority === filterPriority);
-    }
-
-    return filtered.sort((a, b) => {
-      const orderA = priorityConfig[a.priority]?.order || 99;
-      const orderB = priorityConfig[b.priority]?.order || 99;
-      if (orderA !== orderB) return orderA - orderB;
-      return a.name.localeCompare(b.name);
-    });
-  }, [donorsList, searchQuery, filterPriority]);
-
-  const toggleExpand = useCallback((id: string) => {
-    setExpandedId((prev) => (prev === id ? null : id));
-  }, []);
-
-  const renderDonorItem = useCallback(
-    ({ item }: { item: DonorEntry }) => {
-      const isExpanded = expandedId === item.id;
-      const config = priorityConfig[item.priority];
-
-      return (
-        <TouchableOpacity
-          style={[styles.donorCard, { backgroundColor: colors.card, borderColor: colors.border }]}
-          onPress={() => toggleExpand(item.id)}
-          activeOpacity={0.7}
-        >
-          <View style={styles.donorHeader}>
-            <View style={styles.donorInfo}>
-              <Text style={[styles.donorName, { color: colors.text }]}>{item.name}</Text>
-              <View style={[styles.priorityBadge, { backgroundColor: `${config.color}20` }]}>
-                <Text style={[styles.priorityText, { color: config.color }]}>{config.label}</Text>
-              </View>
-            </View>
-            <FontAwesome
-              name={isExpanded ? 'chevron-up' : 'chevron-down'}
-              size={14}
-              color={colors.textSecondary}
-            />
-          </View>
-
-          {isExpanded && (
-            <View style={styles.donorsListContainer}>
-              <Text style={[styles.donorsLabel, { color: colors.textSecondary }]}>
-                RECYCLE THESE TO GET {item.name.toUpperCase()}:
-              </Text>
-              {item.bestDonors.map((donorId, index) => {
-                const donorItem = itemsMap[donorId];
-                return (
-                  <View
-                    key={donorId}
-                    style={[styles.donorRow, { backgroundColor: colors.surface }]}
-                  >
-                    <View style={styles.donorRowLeft}>
-                      <Text style={[styles.donorIndex, { color: arcColors.teal }]}>
-                        {index + 1}.
-                      </Text>
-                      <Text style={[styles.donorItemName, { color: colors.text }]}>
-                        {donorItem?.name || donorId.replace(/_/g, ' ')}
-                      </Text>
-                    </View>
-                    {donorItem && (
-                      <Text style={[styles.donorRarity, { color: colors.textSecondary }]}>
-                        {donorItem.rarity.toUpperCase()}
-                      </Text>
-                    )}
-                  </View>
-                );
-              })}
-            </View>
-          )}
-        </TouchableOpacity>
-      );
-    },
-    [expandedId, colors, itemsMap, toggleExpand]
+  const donorsMap = useMemo(
+    () => buildMaterialDonorsMap(lootData.loot as LootItem[]),
+    []
   );
 
-  const keyExtractor = useCallback((item: DonorEntry) => item.id, []);
+  const allMaterials = useMemo(
+    () => getAllMaterials(lootData.loot as LootItem[]),
+    []
+  );
+
+  const filteredMaterials = useMemo(() => {
+    if (!searchQuery.trim()) return allMaterials;
+    const query = searchQuery.toLowerCase();
+    return allMaterials.filter((m) => m.toLowerCase().includes(query));
+  }, [allMaterials, searchQuery]);
+
+  const getRarityColor = (rarity: string) => {
+    return rarityColors[rarity as keyof typeof rarityColors] || colors.text;
+  };
+
+  const renderMaterialSection = ({ item: material }: { item: string }) => {
+    const donors = donorsMap.get(material) || [];
+    const isExpanded = expandedMaterial === material;
+    const displayedDonors = isExpanded ? donors : donors.slice(0, 3);
+    const hasMore = donors.length > 3;
+
+    return (
+      <View style={[styles.materialSection, { backgroundColor: colors.card }]}>
+        <View style={styles.materialHeader}>
+          <Text style={[styles.materialName, { color: colors.text }]}>
+            {material}
+          </Text>
+          <Text style={[styles.donorCount, { color: colors.textSecondary }]}>
+            {donors.length} source{donors.length !== 1 ? 's' : ''}
+          </Text>
+        </View>
+
+        <View style={styles.donorsList}>
+          {displayedDonors.map((donor, index) => (
+            <View
+              key={donor.item.id}
+              style={[
+                styles.donorRow,
+                index === 0 && styles.topDonor,
+                { borderBottomColor: colors.border },
+              ]}
+            >
+              <View style={styles.donorInfo}>
+                {index === 0 && (
+                  <FontAwesome
+                    name="star"
+                    size={12}
+                    color={arcColors.gold}
+                    style={styles.starIcon}
+                  />
+                )}
+                <Text
+                  style={[
+                    styles.donorName,
+                    { color: getRarityColor(donor.item.rarity) },
+                  ]}
+                >
+                  {donor.item.name}
+                </Text>
+              </View>
+              <View style={styles.quantityBadge}>
+                <Text style={styles.quantityText}>×{donor.quantity}</Text>
+              </View>
+            </View>
+          ))}
+        </View>
+
+        {hasMore && (
+          <TouchableOpacity
+            style={styles.showMoreButton}
+            onPress={() =>
+              setExpandedMaterial(isExpanded ? null : material)
+            }
+          >
+            <Text style={[styles.showMoreText, { color: arcColors.teal }]}>
+              {isExpanded
+                ? 'Show less'
+                : `Show ${donors.length - 3} more`}
+            </Text>
+            <FontAwesome
+              name={isExpanded ? 'chevron-up' : 'chevron-down'}
+              size={12}
+              color={arcColors.teal}
+            />
+          </TouchableOpacity>
+        )}
+      </View>
+    );
+  };
 
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
       <View style={styles.header}>
         <Text style={[styles.title, { color: colors.text }]}>Best Donors</Text>
         <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
-          What to recycle to get components
+          What to recycle to get specific materials
         </Text>
       </View>
 
-      <SearchBar
-        value={searchQuery}
-        onChangeText={setSearchQuery}
-        placeholder="Search components..."
-      />
-
-      {/* Priority Filter */}
-      <View style={styles.filterContainer}>
-        <TouchableOpacity
-          style={[
-            styles.filterButton,
-            filterPriority === 'all' && { backgroundColor: `${arcColors.teal}30` },
-          ]}
-          onPress={() => setFilterPriority('all')}
-        >
-          <Text
-            style={[
-              styles.filterText,
-              { color: filterPriority === 'all' ? arcColors.teal : colors.textSecondary },
-            ]}
-          >
-            ALL
-          </Text>
-        </TouchableOpacity>
-        {(Object.keys(priorityConfig) as Priority[]).map((priority) => (
-          <TouchableOpacity
-            key={priority}
-            style={[
-              styles.filterButton,
-              filterPriority === priority && { backgroundColor: `${priorityConfig[priority].color}30` },
-            ]}
-            onPress={() => setFilterPriority(priority)}
-          >
-            <Text
-              style={[
-                styles.filterText,
-                {
-                  color:
-                    filterPriority === priority
-                      ? priorityConfig[priority].color
-                      : colors.textSecondary,
-                },
-              ]}
-            >
-              {priorityConfig[priority].label}
-            </Text>
+      <View style={[styles.searchContainer, { backgroundColor: colors.card }]}>
+        <FontAwesome
+          name="search"
+          size={16}
+          color={colors.textSecondary}
+          style={styles.searchIcon}
+        />
+        <TextInput
+          style={[styles.searchInput, { color: colors.text }]}
+          placeholder="Search materials..."
+          placeholderTextColor={colors.textSecondary}
+          value={searchQuery}
+          onChangeText={setSearchQuery}
+        />
+        {searchQuery.length > 0 && (
+          <TouchableOpacity onPress={() => setSearchQuery('')}>
+            <FontAwesome name="times-circle" size={16} color={colors.textSecondary} />
           </TouchableOpacity>
-        ))}
-      </View>
-
-      <View style={styles.countContainer}>
-        <Text style={[styles.countText, { color: colors.textSecondary }]}>
-          {filteredDonors.length} components
-        </Text>
+        )}
       </View>
 
       <FlatList
-        data={filteredDonors}
-        renderItem={renderDonorItem}
-        keyExtractor={keyExtractor}
+        data={filteredMaterials}
+        renderItem={renderMaterialSection}
+        keyExtractor={(item) => item}
         contentContainerStyle={styles.listContent}
         showsVerticalScrollIndicator={false}
+        ListEmptyComponent={
+          <View style={styles.emptyContainer}>
+            <Text style={[styles.emptyText, { color: colors.textSecondary }]}>
+              No materials found
+            </Text>
+          </View>
+        }
       />
     </SafeAreaView>
   );
@@ -229,99 +223,95 @@ const styles = StyleSheet.create({
     fontSize: 13,
     marginTop: 4,
   },
-  filterContainer: {
+  searchContainer: {
     flexDirection: 'row',
+    alignItems: 'center',
+    marginHorizontal: 16,
+    marginVertical: 12,
     paddingHorizontal: 12,
-    paddingVertical: 8,
-    gap: 6,
-    flexWrap: 'wrap',
+    paddingVertical: 10,
+    borderRadius: 10,
   },
-  filterButton: {
-    paddingHorizontal: 10,
-    paddingVertical: 6,
-    borderRadius: 6,
+  searchIcon: {
+    marginRight: 8,
   },
-  filterText: {
-    fontSize: 10,
-    fontWeight: '600',
-    letterSpacing: 0.5,
-  },
-  countContainer: {
-    paddingHorizontal: 16,
-    paddingVertical: 4,
-  },
-  countText: {
-    fontSize: 12,
+  searchInput: {
+    flex: 1,
+    fontSize: 16,
   },
   listContent: {
-    paddingHorizontal: 12,
+    paddingHorizontal: 16,
     paddingBottom: 100,
   },
-  donorCard: {
-    borderRadius: 10,
-    borderWidth: 1,
-    marginBottom: 8,
-    overflow: 'hidden',
+  materialSection: {
+    marginBottom: 12,
+    borderRadius: 12,
+    padding: 12,
   },
-  donorHeader: {
+  materialHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 14,
+    marginBottom: 8,
   },
-  donorInfo: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 10,
-    flex: 1,
-  },
-  donorName: {
-    fontSize: 15,
-    fontWeight: '500',
-  },
-  priorityBadge: {
-    paddingHorizontal: 8,
-    paddingVertical: 3,
-    borderRadius: 4,
-  },
-  priorityText: {
-    fontSize: 9,
-    fontWeight: '700',
-    letterSpacing: 0.5,
-  },
-  donorsListContainer: {
-    paddingHorizontal: 14,
-    paddingBottom: 14,
-  },
-  donorsLabel: {
-    fontSize: 10,
+  materialName: {
+    fontSize: 16,
     fontWeight: '600',
-    letterSpacing: 0.5,
-    marginBottom: 10,
+  },
+  donorCount: {
+    fontSize: 12,
+  },
+  donorsList: {
+    gap: 6,
   },
   donorRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: 10,
-    borderRadius: 6,
-    marginBottom: 6,
+    paddingVertical: 6,
   },
-  donorRowLeft: {
+  topDonor: {
+    paddingLeft: 0,
+  },
+  donorInfo: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    flex: 1,
   },
-  donorIndex: {
-    fontSize: 13,
-    fontWeight: '600',
-    width: 20,
+  starIcon: {
+    marginRight: 6,
   },
-  donorItemName: {
+  donorName: {
     fontSize: 14,
   },
-  donorRarity: {
-    fontSize: 10,
-    letterSpacing: 0.5,
+  quantityBadge: {
+    backgroundColor: arcColors.teal,
+    paddingHorizontal: 8,
+    paddingVertical: 3,
+    borderRadius: 6,
+  },
+  quantityText: {
+    color: '#000',
+    fontSize: 12,
+    fontWeight: '600',
+  },
+  showMoreButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 8,
+    paddingVertical: 6,
+    gap: 6,
+  },
+  showMoreText: {
+    fontSize: 13,
+    fontWeight: '500',
+  },
+  emptyContainer: {
+    alignItems: 'center',
+    paddingVertical: 40,
+  },
+  emptyText: {
+    fontSize: 14,
   },
 });

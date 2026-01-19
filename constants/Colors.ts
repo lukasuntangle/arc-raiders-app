@@ -19,6 +19,15 @@ export const arcColors = {
   legendary: '#F97316',  // Orange
 };
 
+// Exported rarity colors for easy access
+export const rarityColors = {
+  common: arcColors.common,
+  uncommon: arcColors.uncommon,
+  rare: arcColors.rare,
+  epic: arcColors.epic,
+  legendary: arcColors.legendary,
+};
+
 // Dark backgrounds - matching game's dark UI
 const backgroundColor = '#0D1117';  // Main dark background
 const surfaceColor = '#161B22';     // Slightly lighter panels

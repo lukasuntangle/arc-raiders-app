@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Image } from 'react-native';
 import { useColorScheme } from './useColorScheme';
 import Colors, { arcColors } from '@/constants/Colors';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import type { Item } from '@/lib/types';
+import { getItemImage } from '@/assets/images/items';
 
 interface ItemCardProps {
   item: Item;
@@ -17,6 +18,7 @@ export function ItemCard({ item, onPress, showDetails = false }: ItemCardProps) 
 
   const actionColor = colors[item.action] || colors.textSecondary;
   const rarityColor = colors[item.rarity] || colors.common;
+  const itemImage = getItemImage(item.id);
 
   const getActionLabel = (action: string) => {
     switch (action) {
@@ -42,8 +44,12 @@ export function ItemCard({ item, onPress, showDetails = false }: ItemCardProps) 
 
       <View style={styles.content}>
         <View style={styles.leftContent}>
-          {/* Rarity dot */}
-          <View style={[styles.rarityDot, { backgroundColor: rarityColor }]} />
+          {/* Item image or rarity dot */}
+          {itemImage ? (
+            <Image source={itemImage} style={styles.itemImage} />
+          ) : (
+            <View style={[styles.rarityDot, { backgroundColor: rarityColor }]} />
+          )}
 
           <View style={styles.textContent}>
             <Text style={[styles.name, { color: colors.text }]} numberOfLines={1}>
@@ -107,6 +113,13 @@ const styles = StyleSheet.create({
     height: 8,
     borderRadius: 4,
     marginRight: 12,
+  },
+  itemImage: {
+    width: 36,
+    height: 36,
+    borderRadius: 4,
+    marginRight: 12,
+    backgroundColor: 'rgba(255,255,255,0.05)',
   },
   textContent: {
     flex: 1,

@@ -1,0 +1,1011 @@
+{
+  "loot": [
+    {
+      "id": "advanced-arc-powercell",
+      "name": "Advanced ARC Powercell",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Powercell", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "advanced-electrical-components",
+      "name": "Advanced Electrical Components",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Electrical Components", "quantity": 1 },
+        { "material": "Wires", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "advanced-mechanical-components",
+      "name": "Advanced Mechanical Components",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Mechanical Components", "quantity": 1 },
+        { "material": "Steel Spring", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "alarm-clock",
+      "name": "Alarm Clock",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Processor", "quantity": 1 },
+        { "material": "Plastic Parts", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "arc-coolant",
+      "name": "ARC Coolant",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Chemicals", "quantity": 16 }
+      ]
+    },
+    {
+      "id": "arc-flex-rubber",
+      "name": "ARC Flex Rubber",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 16 }
+      ]
+    },
+    {
+      "id": "arc-performance-steel",
+      "name": "ARC Performance Steel",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "arc-synthetic-resin",
+      "name": "ARC Synthetic Resin",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 14 }
+      ]
+    },
+    {
+      "id": "arc-thermo-lining",
+      "name": "ARC Thermo Lining",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Fabric", "quantity": 16 }
+      ]
+    },
+    {
+      "id": "bastion-cell",
+      "name": "Bastion Cell",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 2 },
+        { "material": "ARC Alloy", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "bicycle-pump",
+      "name": "Bicycle Pump",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 10 },
+        { "material": "Canister", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "blaze-grenade",
+      "name": "Blaze Grenade",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Oil", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "bombardier-cell",
+      "name": "Bombardier Cell",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 2 },
+        { "material": "ARC Alloy", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "broken-flashlight",
+      "name": "Broken Flashlight",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Battery", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "broken-handheld-radio",
+      "name": "Broken Handheld Radio",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Wires", "quantity": 2 },
+        { "material": "Sensors", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "broken-taser",
+      "name": "Broken Taser",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Battery", "quantity": 2 },
+        { "material": "Wires", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "burned-arc-circuitry",
+      "name": "Burned ARC Circuitry",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "camera-lens",
+      "name": "Camera Lens",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "candle-holder",
+      "name": "Candle Holder",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "coolant",
+      "name": "Coolant",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Oil", "quantity": 2 },
+        { "material": "Chemicals", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "cooling-coil",
+      "name": "Cooling Coil",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Steel Spring", "quantity": 2 },
+        { "material": "Chemicals", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "cooling-fan",
+      "name": "Cooling Fan",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 14 },
+        { "material": "Wires", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "cracked-bioscanner",
+      "name": "Cracked Bioscanner",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Battery", "quantity": 3 },
+        { "material": "Rubber Parts", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "crude-explosives",
+      "name": "Crude Explosives",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Chemicals", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "crumpled-plastic-bottle",
+      "name": "Crumpled Plastic Bottle",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "damaged-arc-motion-core",
+      "name": "Damaged ARC Motion Core",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "damaged-arc-powercell",
+      "name": "Damaged ARC Powercell",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "damaged-fireball-burner",
+      "name": "Damaged Fireball Burner",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "damaged-heat-sink",
+      "name": "Damaged Heat Sink",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Wires", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "damaged-hornet-driver",
+      "name": "Damaged Hornet Driver",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "damaged-leaper-pulse-unit",
+      "name": "Damaged Leaper Pulse Unit",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "damaged-rocketeer-driver",
+      "name": "Damaged Rocketeer Driver",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "damaged-tick-pod",
+      "name": "Damaged Tick Pod",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "damaged-wasp-driver",
+      "name": "Damaged Wasp Driver",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "deflated-football",
+      "name": "Deflated Football",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Fabric", "quantity": 9 },
+        { "material": "Rubber Parts", "quantity": 9 }
+      ]
+    },
+    {
+      "id": "degraded-arc-rubber",
+      "name": "Degraded ARC Rubber",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 11 }
+      ]
+    },
+    {
+      "id": "diving-goggles",
+      "name": "Diving Goggles",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "dog-collar",
+      "name": "Dog Collar",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 1 },
+        { "material": "Fabric", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "dried-out-arc-resin",
+      "name": "Dried-Out ARC Resin",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 9 }
+      ]
+    },
+    {
+      "id": "durable-cloth",
+      "name": "Durable Cloth",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Fabric", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "electrical-components",
+      "name": "Electrical Components",
+      "rarity": "common",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 3 },
+        { "material": "Rubber Parts", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "expired-respirator",
+      "name": "Expired Respirator",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Fabric", "quantity": 4 },
+        { "material": "Rubber Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "explosive-compound",
+      "name": "Explosive Compound",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Crude Explosives", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "explosive-mine",
+      "name": "Explosive Mine",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Sensors", "quantity": 1 },
+        { "material": "Oil", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "flow-controller",
+      "name": "Flow Controller",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 1 },
+        { "material": "Sensors", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "frequency-modulation-box",
+      "name": "Frequency Modulation Box",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Electrical Components", "quantity": 1 },
+        { "material": "Speaker Component", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "fried-motherboard",
+      "name": "Fried Motherboard",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Electrical Components", "quantity": 2 },
+        { "material": "Plastic Parts", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "frying-pan",
+      "name": "Frying Pan",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "garlic-press",
+      "name": "Garlic Press",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "geiger-counter",
+      "name": "Geiger Counter",
+      "rarity": "legendary",
+      "recyclesInto": [
+        { "material": "Exodus Modules", "quantity": 1 },
+        { "material": "Battery", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Speaker Component", "quantity": 1 },
+        { "material": "Rubber Parts", "quantity": 7 }
+      ]
+    },
+    {
+      "id": "heavy-fuze-grenade",
+      "name": "Heavy Fuze Grenade",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Oil", "quantity": 1 },
+        { "material": "Rubber Parts", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "hornet-driver",
+      "name": "Hornet Driver",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 },
+        { "material": "Electrical Components", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "household-cleaner",
+      "name": "Household Cleaner",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Chemicals", "quantity": 11 }
+      ]
+    },
+    {
+      "id": "humidifier",
+      "name": "Humidifier",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Canister", "quantity": 2 },
+        { "material": "Wires", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "ice-cream-scooper",
+      "name": "Ice Cream Scooper",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 7 }
+      ]
+    },
+    {
+      "id": "impure-arc-coolant",
+      "name": "Impure ARC Coolant",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Chemicals", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "industrial-battery",
+      "name": "Industrial Battery",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Battery", "quantity": 2 },
+        { "material": "Chemicals", "quantity": 7 }
+      ]
+    },
+    {
+      "id": "industrial-charger",
+      "name": "Industrial Charger",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Voltage Converter", "quantity": 1 },
+        { "material": "Metal Parts", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "industrial-magnet",
+      "name": "Industrial Magnet",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Magnet", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "ion-sputter",
+      "name": "Ion Sputter",
+      "rarity": "legendary",
+      "recyclesInto": [
+        { "material": "Exodus Modules", "quantity": 1 },
+        { "material": "Voltage Converter", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "laboratory-reagents",
+      "name": "Laboratory Reagents",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Chemicals", "quantity": 16 },
+        { "material": "Crude Explosives", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "leaper-pulse-unit",
+      "name": "Leaper Pulse Unit",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 2 },
+        { "material": "ARC Alloy", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "magnetic-accelerator",
+      "name": "Magnetic Accelerator",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 1 },
+        { "material": "ARC Motion Core", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "magnetron",
+      "name": "Magnetron",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Magnetic Accelerator", "quantity": 1 },
+        { "material": "Steel Spring", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "matriarch-reactor",
+      "name": "Matriarch Reactor",
+      "rarity": "legendary",
+      "recyclesInto": [
+        { "material": "Magnetic Accelerator", "quantity": 1 },
+        { "material": "Power Rod", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "metal-brackets",
+      "name": "Metal Brackets",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "microscope",
+      "name": "Microscope",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 1 },
+        { "material": "Magnet", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "mini-centrifuge",
+      "name": "Mini Centrifuge",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Mechanical Components", "quantity": 1 },
+        { "material": "Canister", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "motor",
+      "name": "Motor",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Mechanical Components", "quantity": 2 },
+        { "material": "Oil", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "polluted-air-filter",
+      "name": "Polluted Air Filter",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Oil", "quantity": 2 },
+        { "material": "Fabric", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "pop-trigger",
+      "name": "Pop Trigger",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 },
+        { "material": "Crude Explosives", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "portable-tv",
+      "name": "Portable TV",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Battery", "quantity": 2 },
+        { "material": "Wires", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "power-bank",
+      "name": "Power Bank",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Battery", "quantity": 2 },
+        { "material": "Wires", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "power-cable",
+      "name": "Power Cable",
+      "rarity": "common",
+      "recyclesInto": [
+        { "material": "Wires", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "projector",
+      "name": "Projector",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Processor", "quantity": 1 },
+        { "material": "Wires", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "queen-reactor",
+      "name": "Queen Reactor",
+      "rarity": "legendary",
+      "recyclesInto": [
+        { "material": "Magnetic Accelerator", "quantity": 1 },
+        { "material": "Power Rod", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "radio",
+      "name": "Radio",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Sensors", "quantity": 1 },
+        { "material": "Speaker Component", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "radio-relay",
+      "name": "Radio Relay",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Sensors", "quantity": 2 },
+        { "material": "Speaker Component", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "remote-control",
+      "name": "Remote Control",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Sensors", "quantity": 1 },
+        { "material": "Plastic Parts", "quantity": 7 }
+      ]
+    },
+    {
+      "id": "ripped-safety-vest",
+      "name": "Ripped Safety Vest",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Durable Cloth", "quantity": 1 },
+        { "material": "Magnet", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "rocket-thruster",
+      "name": "Rocket Thruster",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Synthesized Fuel", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "rocketeer-driver",
+      "name": "Rocketeer Driver",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Electrical Components", "quantity": 2 },
+        { "material": "ARC Alloy", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "rotary-encoder",
+      "name": "Rotary Encoder",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Electrical Components", "quantity": 2 },
+        { "material": "Processor", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "rubber-pad",
+      "name": "Rubber Pad",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 18 }
+      ]
+    },
+    {
+      "id": "ruined-accordion",
+      "name": "Ruined Accordion",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 18 },
+        { "material": "Steel Spring", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "ruined-augment",
+      "name": "Ruined Augment",
+      "rarity": "common",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 2 },
+        { "material": "Rubber Parts", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "ruined-baton",
+      "name": "Ruined Baton",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 3 },
+        { "material": "Metal Parts", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "ruined-handcuffs",
+      "name": "Ruined Handcuffs",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "ruined-parachute",
+      "name": "Ruined Parachute",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Fabric", "quantity": 10 }
+      ]
+    },
+    {
+      "id": "ruined-riot-shield",
+      "name": "Ruined Riot Shield",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Plastic Parts", "quantity": 10 },
+        { "material": "Rubber Parts", "quantity": 6 }
+      ]
+    },
+    {
+      "id": "ruined-tactical-vest",
+      "name": "Ruined Tactical Vest",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Magnet", "quantity": 1 },
+        { "material": "Fabric", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "rusted-bolts",
+      "name": "Rusted Bolts",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "rusted-gear",
+      "name": "Rusted Gear",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Mechanical Components", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 4 }
+      ]
+    },
+    {
+      "id": "rusted-shut-medical-kit",
+      "name": "Rusted Shut Medical Kit",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Antiseptic", "quantity": 1 },
+        { "material": "Syringe", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "rusted-tools",
+      "name": "Rusted Tools",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Steel Spring", "quantity": 1 },
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "rusty-arc-steel",
+      "name": "Rusty ARC Steel",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 8 }
+      ]
+    },
+    {
+      "id": "sample-cleaner",
+      "name": "Sample Cleaner",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Assorted Seeds", "quantity": 14 },
+        { "material": "Electrical Components", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "sentinel-firing-core",
+      "name": "Sentinel Firing Core",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 },
+        { "material": "Mechanical Components", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "shredder-gyro",
+      "name": "Shredder Gyro",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 3 },
+        { "material": "Mechanical Components", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "signal-amplifier",
+      "name": "Signal Amplifier",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Electrical Components", "quantity": 2 },
+        { "material": "Voltage Converter", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "snitch-scanner",
+      "name": "Snitch Scanner",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 },
+        { "material": "Electrical Components", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "spectrometer",
+      "name": "Spectrometer",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Electrical Components", "quantity": 1 },
+        { "material": "Sensors", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "spectrum-analyzer",
+      "name": "Spectrum Analyzer",
+      "rarity": "legendary",
+      "recyclesInto": [
+        { "material": "Exodus Modules", "quantity": 1 },
+        { "material": "Sensors", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "spotter-relay",
+      "name": "Spotter Relay",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 1 },
+        { "material": "Electrical Components", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "spring-cushion",
+      "name": "Spring Cushion",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Durable Cloth", "quantity": 2 },
+        { "material": "Steel Spring", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "surveyor-vault",
+      "name": "Surveyor Vault",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 },
+        { "material": "Mechanical Components", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "telemetry-transceiver",
+      "name": "Telemetry Transceiver",
+      "rarity": "epic",
+      "recyclesInto": [
+        { "material": "Advanced Electrical Components", "quantity": 1 },
+        { "material": "Processor", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "thermostat",
+      "name": "Thermostat",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Sensors", "quantity": 1 },
+        { "material": "Rubber Parts", "quantity": 7 }
+      ]
+    },
+    {
+      "id": "tick-pod",
+      "name": "Tick Pod",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "ARC Alloy", "quantity": 2 },
+        { "material": "Chemicals", "quantity": 2 }
+      ]
+    },
+    {
+      "id": "toaster",
+      "name": "Toaster",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Wires", "quantity": 3 },
+        { "material": "Plastic Parts", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "torn-blanket",
+      "name": "Torn Blanket",
+      "rarity": "uncommon",
+      "recyclesInto": [
+        { "material": "Fabric", "quantity": 12 }
+      ]
+    },
+    {
+      "id": "turbo-pump",
+      "name": "Turbo Pump",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Mechanical Components", "quantity": 1 },
+        { "material": "Oil", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "unusable-weapon",
+      "name": "Unusable Weapon",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Metal Parts", "quantity": 4 },
+        { "material": "Simple Gun Parts", "quantity": 5 }
+      ]
+    },
+    {
+      "id": "water-filter",
+      "name": "Water Filter",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Rubber Parts", "quantity": 2 },
+        { "material": "Canister", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "water-pump",
+      "name": "Water Pump",
+      "rarity": "rare",
+      "recyclesInto": [
+        { "material": "Oil", "quantity": 2 },
+        { "material": "Metal Parts", "quantity": 4 }
+      ]
+    }
+  ]
+}

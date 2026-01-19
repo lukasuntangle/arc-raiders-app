@@ -1,58 +1,94 @@
 {
   "items": [
     {
-      "id": "acid",
-      "name": "Acid",
+      "id": "accordion",
+      "name": "Accordion",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "advanced_tools",
-      "name": "Advanced Tools",
+      "id": "adrenaline_shot",
+      "name": "Adrenaline Shot",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "advanced_arc_powercell",
+      "name": "Advanced ARC Powercell",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_2", "gear_bench_2"]
+      "usedInUpgrades": [],
+      "notes": "Very valuable resource that drops from certain ARC enemies."
     },
     {
-      "id": "aeration_processor",
-      "name": "Aeration Processor",
-      "rarity": "uncommon",
+      "id": "advanced_electrical_components",
+      "name": "Advanced Electrical Components",
+      "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
     },
     {
-      "id": "alloy_plates",
-      "name": "Alloy Plates",
-      "rarity": "uncommon",
+      "id": "advanced_mechanical_components",
+      "name": "Advanced Mechanical Components",
+      "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_3"]
+      "usedInUpgrades": [],
+      "notes": "Used to craft advanced weapons. Can be recycled into crafting materials."
     },
     {
-      "id": "ammo_box_grey",
-      "name": "Ammo Box (Grey)",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
+      "id": "agave",
+      "name": "Agave",
+      "rarity": "uncommon",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "A piece of an agave leaf. Can be used to regain a small amount of health."
     },
     {
-      "id": "ammo_box_green",
-      "name": "Ammo Box (Green)",
+      "id": "air_freshener",
+      "name": "Air Freshener",
       "rarity": "uncommon",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "May be worth a few coins."
+    },
+    {
+      "id": "alarm_clock",
+      "name": "Alarm Clock",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "antiseptic",
+      "name": "Antiseptic",
+      "rarity": "rare",
+      "category": "consumable",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft medical supplies. Can be recycled into chemicals."
     },
     {
       "id": "apricot",
@@ -62,225 +98,397 @@
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Keep for quests"
+      "notes": "A sun ripe apricot. Can be consumed for a small amount of stamina."
     },
     {
-      "id": "arc_battery_cell",
-      "name": "ARC Battery Cell",
+      "id": "arc_alloy",
+      "name": "ARC Alloy",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Obtained from ARC enemies or activites, or by recycling certain ARC parts. Used to craft components."
+    },
+    {
+      "id": "arc_circuitry",
+      "name": "ARC Circuitry",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy."
     },
     {
-      "id": "backup_fuse",
-      "name": "Backup Fuse",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "ballistic_cloth",
-      "name": "Ballistic Cloth",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_2", "gear_bench_3"]
-    },
-    {
-      "id": "basic_synth_fiber",
-      "name": "Basic Synth Fiber",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "bear_trap",
-      "name": "Bear Trap",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "brass_fitting",
-      "name": "Brass Fitting",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "broken_arc_tool",
-      "name": "Broken ARC Tool",
+      "id": "arc_coolant",
+      "name": "ARC Coolant",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Obtained from ARC enemies or activites. Can be recycled into chemicals"
     },
     {
-      "id": "broken_motor",
-      "name": "Broken Motor",
-      "rarity": "uncommon",
+      "id": "arc_flex_rubber",
+      "name": "ARC Flex Rubber",
+      "rarity": "rare",
       "category": "component",
-      "action": "sell",
+      "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Obtained from ARC enemies or activities. Can be recycled into rubber."
     },
     {
-      "id": "burnt_coil",
-      "name": "Burnt Coil",
+      "id": "arc_motion_core",
+      "name": "ARC Motion Core",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Obtained from ARC enemies or activities. Used to craft components. Can be recycled into ARC Alloy."
+    },
+    {
+      "id": "arc_performance_steel",
+      "name": "ARC Performance Steel",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into scrap metal."
+    },
+    {
+      "id": "arc_powercell",
+      "name": "ARC Powercell",
       "rarity": "common",
       "category": "component",
-      "action": "sell",
+      "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Valuable resource that drops from all ARC enemies."
     },
     {
-      "id": "canned_food",
-      "name": "Canned Food",
+      "id": "arc_synthetic_resin",
+      "name": "ARC Synthetic Resin",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "arc_thermo_lining",
+      "name": "ARC Thermo Lining",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "assorted_seeds",
+      "name": "Assorted Seeds",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "A handful of seeds. Celeste might be looking for these."
+    },
+    {
+      "id": "bandage",
+      "name": "Bandage",
       "rarity": "common",
       "category": "consumable",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "barricade_kit",
+      "name": "Barricade Kit",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "bastion_cell",
+      "name": "Bastion Cell",
+      "rarity": "epic",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "battery",
+      "name": "Battery",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into scrap metal."
+    },
+    {
+      "id": "bicycle_pump",
+      "name": "Bicycle Pump",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "binoculars",
+      "name": "Binoculars",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "bison_driver",
+      "name": "Bison Driver",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "blaze_grenade",
+      "name": "Blaze Grenade",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "bloated_tuna_can",
+      "name": "Bloated Tuna Can",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Something tells you that you don't want to open this..."
+    },
+    {
+      "id": "bobcat",
+      "name": "Bobcat",
+      "rarity": "epic",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Fully automatic SMG with high fire rate but low accuracy."
+    },
+    {
+      "id": "bombardier_cell",
+      "name": "Bombardier Cell",
+      "rarity": "epic",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "breathtaking_snow_globe",
+      "name": "Breathtaking Snow Globe",
+      "rarity": "epic",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "The envy of every Speranzan. Proof that this world was once thriving and magical."
+    },
+    {
+      "id": "broken_flashlight",
+      "name": "Broken Flashlight",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "broken_guidance_system",
+      "name": "Broken Guidance System",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "broken_handheld_radio",
+      "name": "Broken Handheld Radio",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "broken_taser",
+      "name": "Broken Taser",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "burletta",
+      "name": "Burletta",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger."
+    },
+    {
+      "id": "burned_arc_circuitry",
+      "name": "Burned ARC Circuitry",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into ARC Alloy."
+    },
+    {
+      "id": "camera_lens",
+      "name": "Camera Lens",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "candle_holder",
+      "name": "Candle Holder",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "canister",
+      "name": "Canister",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into plastic."
     },
     {
       "id": "cat_bed",
       "name": "Cat Bed",
       "rarity": "uncommon",
-      "category": "consumable",
+      "category": "material",
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Keep for quests"
+      "notes": "At least a tiny bit more comfortable than your face."
     },
     {
-      "id": "cat_bell",
-      "name": "Cat Bell",
-      "rarity": "uncommon",
-      "category": "component",
+      "id": "chemicals",
+      "name": "Chemicals",
+      "rarity": "common",
+      "category": "consumable",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_3"]
+      "usedInUpgrades": [],
+      "notes": "Used to craft medical supplies, explosives, and utility items."
     },
     {
-      "id": "ceramic_fragment",
-      "name": "Ceramic Fragment",
+      "id": "coffee_pot",
+      "name": "Coffee Pot",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "The power to face a new day, one drip at a time."
     },
     {
-      "id": "circuit_board",
-      "name": "Circuit Board",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_2", "medical_lab_2"]
-    },
-    {
-      "id": "cleaning_kit",
-      "name": "Cleaning Kit",
-      "rarity": "common",
-      "category": "component",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "coarse_fabric",
-      "name": "Coarse Fabric",
+      "id": "combat_mk_1",
+      "name": "Combat MK 1",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "combat_drone_motherboard",
-      "name": "Combat Drone Motherboard",
-      "rarity": "epic",
-      "category": "component",
-      "action": "keep",
-      "keepForQuest": true,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "compact_mechanism",
-      "name": "Compact Mechanism",
+      "id": "coolant",
+      "name": "Coolant",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_3"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "compound_electronics",
-      "name": "Compound Electronics",
+      "id": "cooling_coil",
+      "name": "Cooling Coil",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["utility_station_3", "expedition_project_1"],
-      "notes": "High-tier component for Utility Station and Expedition"
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "compressed_fiber_roll",
-      "name": "Compressed Fiber Roll",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "control_module",
-      "name": "Control Module",
+      "id": "cooling_fan",
+      "name": "Cooling Fan",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_2"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "copper_wire",
-      "name": "Copper Wire",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "corroded_gear",
-      "name": "Corroded Gear",
-      "rarity": "common",
+      "id": "cracked_bioscanner",
+      "name": "Cracked Bioscanner",
+      "rarity": "rare",
       "category": "component",
-      "action": "sell",
+      "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "cracked_lens",
-      "name": "Cracked Lens",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
       "id": "crude_explosives",
@@ -289,71 +497,272 @@
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_1"]
+      "usedInUpgrades": [
+        "explosives_station_1"
+      ],
+      "notes": "Used to crafted explosives. Can be recycled into crafting materials."
     },
     {
-      "id": "crushed_ceramics",
-      "name": "Crushed Ceramics",
-      "rarity": "common",
+      "id": "crumpled_plastic_bottle",
+      "name": "Crumpled Plastic Bottle",
+      "rarity": "uncommon",
       "category": "material",
-      "action": "sell",
+      "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into plastic parts."
     },
     {
-      "id": "damaged_heat_sink",
-      "name": "Damaged Heat Sink",
+      "id": "damaged_arc_motion_core",
+      "name": "Damaged ARC Motion Core",
       "rarity": "uncommon",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "dense_polymer",
-      "name": "Dense Polymer",
+      "id": "damaged_arc_powercell",
+      "name": "Damaged ARC Powercell",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
+    },
+    {
+      "id": "damaged_fireball_burner",
+      "name": "Damaged Fireball Burner",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "damaged_heat_sink",
+      "name": "Damaged Heat Sink",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
+    },
+    {
+      "id": "damaged_hornet_driver",
+      "name": "Damaged Hornet Driver",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
+    },
+    {
+      "id": "damaged_rocketeer_driver",
+      "name": "Damaged Rocketeer Driver",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "damaged_tick_pod",
+      "name": "Damaged Tick Pod",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "damaged_wasp_driver",
+      "name": "Damaged Wasp Driver",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "dart_board",
+      "name": "Dart Board",
       "rarity": "uncommon",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Some Raiders use it to practice dexterity. Others just like throwing things at other things."
     },
     {
-      "id": "dog_collar",
-      "name": "Dog Collar",
-      "rarity": "uncommon",
+      "id": "defibrillator",
+      "name": "Defibrillator",
+      "rarity": "rare",
       "category": "consumable",
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Keep for quests"
+      "notes": "An injection that quickly revives downed raiders and restores some health"
+    },
+    {
+      "id": "deflated_football",
+      "name": "Deflated Football",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Just by looking at this, you too start to feel slightly deflated."
+    },
+    {
+      "id": "degraded_arc_rubber",
+      "name": "Degraded ARC Rubber",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "diving_goggles",
+      "name": "Diving Goggles",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "dog_collar",
+      "name": "Dog Collar",
+      "rarity": "rare",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "After all this time, you can still smell the goodness."
+    },
+    {
+      "id": "door_blocker",
+      "name": "Door Blocker",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "A locking mechanism that can be placed on large metal doors to limit access."
+    },
+    {
+      "id": "dried_out_arc_resin",
+      "name": "Dried Out ARC Resin",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "duct_tape",
+      "name": "Duct Tape",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
     },
     {
       "id": "durable_cloth",
       "name": "Durable Cloth",
       "rarity": "uncommon",
-      "category": "material",
+      "category": "consumable",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_2"]
+      "usedInUpgrades": [
+        "gear_bench_2"
+      ],
+      "notes": "Used to craft medical supplies."
     },
     {
-      "id": "electronics_scrap",
-      "name": "Electronics Scrap",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "energy_cell",
-      "name": "Energy Cell",
+      "id": "electrical_components",
+      "name": "Electrical Components",
       "rarity": "uncommon",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["utility_station_2"]
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+    },
+    {
+      "id": "empty_wine_bottle",
+      "name": "Empty Wine Bottle",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Yes, it really is empty."
+    },
+    {
+      "id": "energy_clip",
+      "name": "Energy Clip",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "equalizer",
+      "name": "Equalizer",
+      "rarity": "legendary",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "A high capacity experimental beam rifle."
+    },
+    {
+      "id": "exodus_modules",
+      "name": "Exodus Modules",
+      "rarity": "epic",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items."
+    },
+    {
+      "id": "expired_pasta",
+      "name": "Expired Pasta",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Way pasta its prime."
+    },
+    {
+      "id": "expired_respirator",
+      "name": "Expired Respirator",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "explosive_compound",
@@ -362,183 +771,341 @@
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_2", "explosives_station_3"]
+      "usedInUpgrades": [
+        "explosives_station_2",
+        "explosives_station_3"
+      ],
+      "notes": "Used to craft explosives."
     },
     {
-      "id": "fine_electronics",
-      "name": "Fine Electronics",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_3", "medical_lab_3"]
-    },
-    {
-      "id": "firing_mechanism",
-      "name": "Firing Mechanism",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_2", "gunsmith_3"]
-    },
-    {
-      "id": "flexible_cable",
-      "name": "Flexible Cable",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["refiner_2"],
-      "notes": "Used for Refiner upgrades"
-    },
-    {
-      "id": "flexible_tubing",
-      "name": "Flexible Tubing",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["medical_lab_2"]
-    },
-    {
-      "id": "gas_canister",
-      "name": "Gas Canister",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "glass_shard",
-      "name": "Glass Shard",
+      "id": "fabric",
+      "name": "Fabric",
       "rarity": "common",
-      "category": "material",
-      "action": "sell",
+      "category": "consumable",
+      "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Used to craft medical supplies and shields."
     },
     {
-      "id": "gold_bar",
-      "name": "Gold Bar",
-      "rarity": "epic",
+      "id": "faded_photograph",
+      "name": "Faded Photograph",
+      "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "High sell value"
+      "notes": "A snapshot of the world before, faded by sunlight and time."
     },
     {
-      "id": "gyro_module",
-      "name": "Gyro Module",
+      "id": "ferro",
+      "name": "Ferro",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot."
+    },
+    {
+      "id": "fertilizer",
+      "name": "Fertilizer",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "film_reel",
+      "name": "Film Reel",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "May be worth a few coins."
+    },
+    {
+      "id": "fine_wristwatch",
+      "name": "Fine Wristwatch",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person."
+    },
+    {
+      "id": "fireball_burner",
+      "name": "Fireball Burner",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into ARC Alloy"
+    },
+    {
+      "id": "flow_controller",
+      "name": "Flow Controller",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_3"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "hardened_gyro_module",
-      "name": "Hardened Gyro Module",
+      "id": "free_loadout_augment",
+      "name": "Free Loadout Augment",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "frequency_modulation_box",
+      "name": "Frequency Modulation Box",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "fried_motherboard",
+      "name": "Fried Motherboard",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "garlic_press",
+      "name": "Garlic Press",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "It'll press garlic, olives, and probably many other things."
+    },
+    {
+      "id": "geiger_counter",
+      "name": "Geiger Counter",
       "rarity": "epic",
       "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "great_mullein",
+      "name": "Great Mullein",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "hairpin",
+      "name": "Hairpin",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat."
+    },
+    {
+      "id": "headphones",
+      "name": "Headphones",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "heavy_ammo",
+      "name": "Heavy Ammo",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "heavy_fuze_grenade",
+      "name": "Heavy Fuze Grenade",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "heavy_shield",
+      "name": "Heavy Shield",
+      "rarity": "epic",
+      "category": "material",
       "action": "keep",
       "keepForQuest": true,
-      "usedInUpgrades": ["expedition_project_2"],
-      "notes": "Epic component for Expedition Project 2"
+      "usedInUpgrades": [],
+      "notes": "A heavy shield that blocks a large portion of incoming damage, but carries a significant cost to mobility."
     },
     {
-      "id": "hardened_plate",
-      "name": "Hardened Plate",
+      "id": "herbal_bandage",
+      "name": "Herbal Bandage",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "hornet_driver",
+      "name": "Hornet Driver",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "household_cleaner",
+      "name": "Household Cleaner",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into chemicals."
+    },
+    {
+      "id": "hullcracker",
+      "name": "Hullcracker",
+      "rarity": "epic",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Fires explosive projectiles that only detonate when hitting ARC."
+    },
+    {
+      "id": "humidifier",
+      "name": "Humidifier",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_3"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "hardware_box",
-      "name": "Hardware Box",
-      "rarity": "common",
+      "id": "ice_cream_scooper",
+      "name": "Ice Cream Scooper",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "It is theorized that scooping things was a favorite pasttime in the world before."
+    },
+    {
+      "id": "il_toro",
+      "name": "IL Toro",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output."
+    },
+    {
+      "id": "industrial_battery",
+      "name": "Industrial Battery",
+      "rarity": "rare",
       "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "industrial_charger",
+      "name": "Industrial Charger",
+      "rarity": "common",
+      "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "heat_resistant_fabric",
-      "name": "Heat-Resistant Fabric",
+      "id": "industrial_magnet",
+      "name": "Industrial Magnet",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "ion_sputter",
+      "name": "Ion Sputter",
+      "rarity": "epic",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "jolt_mine",
+      "name": "Jolt Mine",
       "rarity": "rare",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_3"]
+      "usedInUpgrades": [],
+      "notes": "A proximity triggered mine that pops up and stuns anything within its radius"
     },
     {
-      "id": "heating_coil",
-      "name": "Heating Coil",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["expedition_project_2"],
-      "notes": "Used for Expedition Project 2"
-    },
-    {
-      "id": "heavy_spring",
-      "name": "Heavy Spring",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_2"]
-    },
-    {
-      "id": "hydraulic_fluid",
-      "name": "Hydraulic Fluid",
-      "rarity": "uncommon",
+      "id": "jupiter",
+      "name": "Jupiter",
+      "rarity": "legendary",
       "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Fires projectiles at an incredible velocity, capable of damaging multiple targets with one shot."
     },
     {
-      "id": "impact_head",
-      "name": "Impact Head",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_2"]
-    },
-    {
-      "id": "industrial_glue",
-      "name": "Industrial Glue",
+      "id": "kettle",
+      "name": "Kettle",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "insulated_casing",
-      "name": "Insulated Casing",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["refiner_2"],
-      "notes": "Used for Refiner upgrades"
-    },
-    {
-      "id": "insulation_foam",
-      "name": "Insulation Foam",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload."
     },
     {
       "id": "laboratory_reagents",
@@ -547,685 +1114,1152 @@
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_2"],
-      "notes": "Used for Explosives Station upgrades"
+      "usedInUpgrades": [
+        "explosives_station_2"
+      ],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "laser_pointer",
-      "name": "Laser Pointer",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
+      "id": "lances_mixtape",
+      "name": "Lances Mixtape",
+      "rarity": "epic",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Lance has personally planted a number of these around the Rust Belt, for some reason."
+    },
+    {
+      "id": "launcher_ammo",
+      "name": "Launcher Ammo",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "leaper_pulse_unit",
       "name": "Leaper Pulse Unit",
       "rarity": "epic",
-      "category": "component",
+      "category": "material",
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
       "notes": "High-tier component, keep for upgrades"
     },
     {
-      "id": "leather_strip",
-      "name": "Leather Strip",
+      "id": "lemon",
+      "name": "Lemon",
+      "rarity": "uncommon",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Can be consumed for a small amount of Stamina"
+    },
+    {
+      "id": "light_ammo",
+      "name": "Light Ammo",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "light_bulb",
       "name": "Light Bulb",
-      "rarity": "common",
-      "category": "component",
+      "rarity": "uncommon",
+      "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["utility_station_1"]
+      "usedInUpgrades": [
+        "utility_station_1"
+      ],
+      "notes": "Without light, life underground would be impossible."
     },
     {
-      "id": "lightweight_frame",
-      "name": "Lightweight Frame",
-      "rarity": "rare",
-      "category": "component",
+      "id": "light_shield",
+      "name": "Light Shield",
+      "rarity": "uncommon",
+      "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_3"]
+      "usedInUpgrades": [],
+      "notes": "A lightweight shield that offers limited protection without severely impacting mobility."
+    },
+    {
+      "id": "looting_mk_1",
+      "name": "Looting MK 1",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "magnet",
       "name": "Magnet",
       "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "magnetic_accelerator",
+      "name": "Magnetic Accelerator",
+      "rarity": "epic",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Used to craft advanced weapons."
     },
     {
-      "id": "makeshift_battery",
-      "name": "Makeshift Battery",
-      "rarity": "common",
+      "id": "magnetron",
+      "name": "Magnetron",
+      "rarity": "epic",
       "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "mechanical_components",
+      "name": "Mechanical Components",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+    },
+    {
+      "id": "medium_ammo",
+      "name": "Medium Ammo",
+      "rarity": "common",
+      "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "mechanical_parts",
-      "name": "Mechanical Parts",
-      "rarity": "uncommon",
-      "category": "component",
+      "id": "medium_shield",
+      "name": "Medium Shield",
+      "rarity": "rare",
+      "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_1", "scrappy_1"]
+      "usedInUpgrades": [],
+      "notes": "A standard shield that offers fair protection at a moderate cost to mobility."
     },
     {
-      "id": "medical_supplies",
-      "name": "Medical Supplies",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
+      "id": "metal_brackets",
+      "name": "Metal Brackets",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": ["medical_lab_1", "medical_lab_2"]
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "metal_parts",
       "name": "Metal Parts",
       "rarity": "common",
-      "category": "material",
+      "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_1", "gear_bench_1", "scrappy_1"]
+      "usedInUpgrades": [
+        "gunsmith_1",
+        "gear_bench_1",
+        "scrappy_1"
+      ],
+      "notes": ""
     },
     {
-      "id": "metal_scrap",
-      "name": "Metal Scrap",
+      "id": "microscope",
+      "name": "Microscope",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "mini_centrifuge",
+      "name": "Mini Centrifuge",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
+    },
+    {
+      "id": "mod_components",
+      "name": "Mod Components",
       "rarity": "common",
-      "category": "material",
+      "category": "component",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "military_grade_adhesive",
-      "name": "Military Grade Adhesive",
+      "id": "moss",
+      "name": "Moss",
       "rarity": "rare",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "modified_targeting_system",
-      "name": "Modified Targeting System",
-      "rarity": "epic",
-      "category": "component",
-      "action": "keep",
-      "keepForQuest": true,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "motor_oil",
-      "name": "Motor Oil",
+      "id": "motor",
+      "name": "Motor",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "multi_tool",
-      "name": "Multi-Tool",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "mushroom",
       "name": "Mushroom",
       "rarity": "common",
-      "category": "consumable",
+      "category": "material",
       "action": "keep",
       "keepForQuest": true,
       "usedInUpgrades": [],
       "notes": "Keep for quests"
     },
     {
-      "id": "nails",
-      "name": "Nails",
-      "rarity": "common",
+      "id": "music_album",
+      "name": "Music Album",
+      "rarity": "rare",
       "category": "material",
-      "action": "sell",
+      "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "old_coin",
-      "name": "Old Coin",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "olive",
-      "name": "Olive",
-      "rarity": "uncommon",
-      "category": "consumable",
-      "action": "keep",
-      "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Keep for quests"
+      "notes": "Perfect for relaxing nights at home, casual get-togethers, and provide air guitar concerts."
     },
     {
-      "id": "optics_unit",
-      "name": "Optics Unit",
+      "id": "music_box",
+      "name": "Music Box",
       "rarity": "rare",
-      "category": "component",
+      "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_3"]
+      "usedInUpgrades": [],
+      "notes": "Worth a small fortune."
     },
     {
-      "id": "oxidizer",
-      "name": "Oxidizer",
+      "id": "number_plate",
+      "name": "Number Plate",
       "rarity": "uncommon",
-      "category": "component",
+      "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_1"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into metal parts."
     },
     {
-      "id": "pipe_trigger",
-      "name": "Pipe Trigger",
+      "id": "oil",
+      "name": "Oil",
       "rarity": "uncommon",
-      "category": "component",
+      "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_1"],
-      "notes": "Used for Explosives Station upgrades"
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "plastic_casing",
-      "name": "Plastic Casing",
+      "id": "osprey",
+      "name": "Osprey",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "A scoped bolt-action sniper rifle with reliable damage output and accuracy."
+    },
+    {
+      "id": "painted_box",
+      "name": "Painted Box",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "polymer_acoustic_panel",
-      "name": "Polymer Acoustic Panel",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["expedition_project_1"],
-      "notes": "Used for Expedition Project 1"
-    },
-    {
-      "id": "polymer_grip",
-      "name": "Polymer Grip",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_2"]
-    },
-    {
-      "id": "power_cell",
-      "name": "Power Cell",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["utility_station_3"]
-    },
-    {
-      "id": "power_tool_motor",
-      "name": "Power Tool Motor",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "precision_screws",
-      "name": "Precision Screws",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_2"]
-    },
-    {
-      "id": "pressure_gauge",
-      "name": "Pressure Gauge",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "prickly_pear",
-      "name": "Prickly Pear",
+      "id": "photoelectric_cloak",
+      "name": "Photoelectric Cloak",
       "rarity": "common",
-      "category": "consumable",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["medical_lab_1"]
-    },
-    {
-      "id": "processor_board",
-      "name": "Processor Board",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "propellant",
-      "name": "Propellant",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_2"]
-    },
-    {
-      "id": "rad_filter",
-      "name": "Rad Filter",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["medical_lab_2"]
-    },
-    {
-      "id": "raw_meat",
-      "name": "Raw Meat",
-      "rarity": "common",
-      "category": "consumable",
+      "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "refined_metal",
-      "name": "Refined Metal",
+      "id": "plastic_parts",
+      "name": "Plastic Parts",
+      "rarity": "common",
+      "category": "component",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "playing_cards",
+      "name": "Playing Cards",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Speranzans love to see who can build the tallest tower - before the temors knock them down."
+    },
+    {
+      "id": "polluted_air_filter",
+      "name": "Polluted AIr Filter",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "pop_trigger",
+      "name": "Pop Trigger",
+      "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "portable_tv",
+      "name": "Portable TV",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "poster_of_natural_wonders",
+      "name": "Poster of Natural Wonders",
       "rarity": "uncommon",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_2", "gunsmith_2"]
+      "usedInUpgrades": [],
+      "notes": "If you stand close and squint your eyes, it's like the world never came crumbling down."
     },
     {
-      "id": "reinforced_fabric",
-      "name": "Reinforced Fabric",
+      "id": "pottery",
+      "name": "Pottery",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "May be worth a few coins."
+    },
+    {
+      "id": "power_bank",
+      "name": "Power Bank",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "power_cable",
+      "name": "Power Cable",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "processor",
+      "name": "Processor",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used in Crafting"
+    },
+    {
+      "id": "queen_reactor",
+      "name": "Queen Reactor",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "radio",
+      "name": "Radio",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "radio_relay",
+      "name": "Radio Relay",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "raider_hatch_key",
+      "name": "Raider Hatch Key",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "rattler",
+      "name": "Rattler",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time."
+    },
+    {
+      "id": "recorder",
+      "name": "Recorder",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "red_coral_jewlery",
+      "name": "Red Coral Jewlery",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "remote_control",
+      "name": "Remote Control",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "remote_raider_flare",
+      "name": "Remote Raider Flare",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "renegade",
+      "name": "Renegade",
       "rarity": "rare",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_3"]
+      "usedInUpgrades": [],
+      "notes": "Lever-action battle rifle with high damage output, accuracy, and headshot damage."
     },
     {
-      "id": "reinforced_plating",
-      "name": "Reinforced Plating",
+      "id": "rocket_thruster",
+      "name": "Rocket Thruster",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "resin_driver",
-      "name": "Resin Driver",
+      "id": "rocketeer_driver",
+      "name": "Rocketeer Driver",
+      "rarity": "epic",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "roots",
+      "name": "Roots",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "rope",
+      "name": "Rope",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "rosary",
+      "name": "Rosary",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "May be worth a few coins."
+    },
+    {
+      "id": "rotary_encoder",
+      "name": "Rotary Encoder",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["refiner_2"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "rigid_motherboard",
-      "name": "Rigid Motherboard",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
+      "id": "rubber_duck",
+      "name": "Rubber Duck",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Always there to lend an ear, should you need it."
+    },
+    {
+      "id": "rubber_pad",
+      "name": "Rubber Pad",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
       "id": "rubber_parts",
       "name": "Rubber Parts",
       "rarity": "common",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [
+        "gear_bench_1"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ruined_baton",
+      "name": "Ruined Baton",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "ruined_handcuffs",
+      "name": "Ruined Handcuffs",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "ruined_parachute",
+      "name": "Ruined Parachute",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "ruined_riot_shield",
+      "name": "Ruined Riot Shield",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "rusted_bolts",
+      "name": "Rusted Bolts",
+      "rarity": "uncommon",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_1"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into metal parts."
     },
     {
       "id": "rusted_gear",
       "name": "Rusted Gear",
-      "rarity": "common",
+      "rarity": "rare",
       "category": "component",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
       "id": "rusted_tools",
       "name": "Rusted Tools",
       "rarity": "common",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [
+        "gunsmith_1"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "rusty_arc_steel",
+      "name": "Rusty ARC Steel",
+      "rarity": "uncommon",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_1"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "salvaged_wiring",
-      "name": "Salvaged Wiring",
+      "id": "sample_cleaner",
+      "name": "Sample Cleaner",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "shield_recharger",
+      "name": "Shield Recharger",
       "rarity": "uncommon",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "A handheld kit that gradually recharges shield over time."
     },
     {
-      "id": "scrap_metal",
-      "name": "Scrap Metal",
+      "id": "showstopper",
+      "name": "Showstopper",
       "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "sensor_array",
-      "name": "Sensor Array",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "servo_motor",
-      "name": "Servo Motor",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_3"]
-    },
-    {
-      "id": "shrapnel",
-      "name": "Shrapnel",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_1"]
-    },
-    {
-      "id": "signal_booster",
-      "name": "Signal Booster",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "silver_watch",
-      "name": "Silver Watch",
-      "rarity": "rare",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "High sell value"
+      "notes": "omg... is that a toaster? arc raiders reference...?"
     },
     {
-      "id": "small_spring",
-      "name": "Small Spring",
+      "id": "shrapnel_grenade",
+      "name": "Shrapnel Grenade",
       "rarity": "common",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_1"]
-    },
-    {
-      "id": "solvent",
-      "name": "Solvent",
-      "rarity": "common",
-      "category": "material",
-      "action": "sell",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "stabilizer",
-      "name": "Stabilizer",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_3"]
-    },
-    {
-      "id": "stamped_plate_unit",
-      "name": "Stamped Plate Unit",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "steel_bearings",
-      "name": "Steel Bearings",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "storage_module",
-      "name": "Storage Module",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "sturdy_handle",
-      "name": "Sturdy Handle",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["scrappy_2"]
-    },
-    {
-      "id": "survival_kit",
-      "name": "Survival Kit",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["medical_lab_2"]
-    },
-    {
-      "id": "synth_motor",
-      "name": "Synth Motor",
-      "rarity": "rare",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "synthesized_fuel",
-      "name": "Synthesized Fuel",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_2"],
-      "notes": "Used for Explosives Station upgrades"
-    },
-    {
-      "id": "synthetic_fluid",
-      "name": "Synthetic Fluid",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["medical_lab_2"]
-    },
-    {
-      "id": "tarnished_ring",
-      "name": "Tarnished Ring",
-      "rarity": "uncommon",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": [],
-      "notes": "Sell value item"
+      "notes": ""
     },
     {
-      "id": "tension_spring",
-      "name": "Tension Spring",
+      "id": "shredder_gyro",
+      "name": "Shredder Gyro",
       "rarity": "uncommon",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["utility_station_2"],
-      "notes": "Used for Utility Station upgrades"
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "thermal_paste",
-      "name": "Thermal Paste",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "thick_pad",
-      "name": "Thick Pad",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_2"]
-    },
-    {
-      "id": "timer_unit",
-      "name": "Timer Unit",
-      "rarity": "uncommon",
+      "id": "signal_amplifier",
+      "name": "Signal Amplifier",
+      "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_2"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
     },
     {
-      "id": "titanium_bar",
-      "name": "Titanium Bar",
-      "rarity": "epic",
+      "id": "silver_teaspoon_set",
+      "name": "Silver Teaspoon Set",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "A shining shimmering set of refinement and elegance."
+    },
+    {
+      "id": "smoke_grenade",
+      "name": "Smoke Grenade",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "snap_blast_grenade",
+      "name": "Snap Blast Grenade",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "snap_hook",
+      "name": "Snap Hook",
+      "rarity": "legendary",
       "category": "material",
       "action": "keep",
-      "keepForQuest": false,
+      "keepForQuest": true,
       "usedInUpgrades": [],
-      "notes": "Very valuable, keep for high-tier crafting"
+      "notes": "A gadget that allows the user to scale structures and cover large distances."
     },
     {
-      "id": "transistor",
-      "name": "Transistor",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": []
-    },
-    {
-      "id": "treated_cloth",
-      "name": "Treated Cloth",
-      "rarity": "uncommon",
-      "category": "material",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["refiner_1"],
-      "notes": "Used for Refiner upgrades"
-    },
-    {
-      "id": "trigger_module",
-      "name": "Trigger Module",
+      "id": "speaker_component",
+      "name": "Speaker Component",
       "rarity": "rare",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["explosives_station_3"]
+      "usedInUpgrades": [],
+      "notes": "Used in crafting."
     },
     {
-      "id": "vacuum_tube",
-      "name": "Vacuum Tube",
+      "id": "spectrometer",
+      "name": "Spectrometer",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "spectrum_analyzer",
+      "name": "Spectrum Analyzer",
+      "rarity": "epic",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "spotter_relay",
+      "name": "Spotter Relay",
       "rarity": "uncommon",
       "category": "component",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
     },
     {
-      "id": "water_bottle",
-      "name": "Water Bottle",
+      "id": "spring_cushion",
+      "name": "Spring Cushion",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recyled into crafting materials."
+    },
+    {
+      "id": "statuette",
+      "name": "Statuette",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Worth a small fortune."
+    },
+    {
+      "id": "steel_spring",
+      "name": "Steel Spring",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting materials."
+    },
+    {
+      "id": "sterilized_bandage",
+      "name": "Sterilized Bandage",
       "rarity": "common",
       "category": "consumable",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": ""
     },
     {
-      "id": "weapon_parts",
-      "name": "Weapon Parts",
-      "rarity": "uncommon",
-      "category": "component",
-      "action": "recycle",
-      "keepForQuest": false,
-      "usedInUpgrades": ["gunsmith_1", "gunsmith_2"]
-    },
-    {
-      "id": "wire_bundle",
-      "name": "Wire Bundle",
+      "id": "stitcher",
+      "name": "Stitcher",
       "rarity": "common",
       "category": "material",
       "action": "sell",
       "keepForQuest": false,
-      "usedInUpgrades": []
+      "usedInUpgrades": [],
+      "notes": "Deals good damage, but has quite a low fire-rate and can be hard to control."
     },
     {
-      "id": "worn_leather",
-      "name": "Worn Leather",
+      "id": "surveyor_vault",
+      "name": "Surveyor Vault",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
+    },
+    {
+      "id": "synthesized_fuel",
+      "name": "Synthesized Fuel",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [
+        "explosives_station_2"
+      ],
+      "notes": "Used to craft utility items and explosives. Can be recycled into chemicals."
+    },
+    {
+      "id": "syringe",
+      "name": "Syringe",
+      "rarity": "rare",
+      "category": "consumable",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft medical supplies. Can be recycled into plastic."
+    },
+    {
+      "id": "tactical_mk_1",
+      "name": "Tactical MK 1",
       "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "tattered_arc_lining",
+      "name": "Tattered ARC Lining",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "tattered_clothes",
+      "name": "Tattered Clothes",
+      "rarity": "uncommon",
       "category": "material",
       "action": "recycle",
       "keepForQuest": false,
-      "usedInUpgrades": ["gear_bench_1"]
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into fabric."
+    },
+    {
+      "id": "telemetry_transceiver",
+      "name": "Telemetry Transceiver",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "thermostat",
+      "name": "Thermostat",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "tick_pod",
+      "name": "Tick Pod",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "torn_blanket",
+      "name": "Torn Blanket",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into fabric."
+    },
+    {
+      "id": "torn_book",
+      "name": "Torn Book",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "What pages remain speak of chosen heroes, vampires, and lots of longing glances."
+    },
+    {
+      "id": "torrente",
+      "name": "Torrente",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Has a large ammo capacity, but is only accurate while crouched."
+    },
+    {
+      "id": "turbo_pump",
+      "name": "Turbo Pump",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "vase",
+      "name": "Vase",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Worth a small fortune"
+    },
+    {
+      "id": "venator",
+      "name": "Venator",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Semi-automatic pistol. Fires two shots at a time."
+    },
+    {
+      "id": "very_comfortable_pillow",
+      "name": "Very Comfortable Pillow",
+      "rarity": "uncommon",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "The envy of every Raider. Like sleeping on an especially ergonomic cloud."
+    },
+    {
+      "id": "vita_shot",
+      "name": "Vita Shot",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "vita_spray",
+      "name": "Vita Spray",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "volcanic_rock",
+      "name": "Volcanic Rock",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be thrown."
+    },
+    {
+      "id": "voltage_converter",
+      "name": "Voltage Converter",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used in crafting."
+    },
+    {
+      "id": "voltage_coverter",
+      "name": "Voltage Coverter",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
+    },
+    {
+      "id": "vulcano",
+      "name": "Vulcano",
+      "rarity": "epic",
+      "category": "material",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Has good bullet spread but sharp falloff."
+    },
+    {
+      "id": "wasp_driver",
+      "name": "Wasp Driver",
+      "rarity": "rare",
+      "category": "material",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into ARC Alloy."
+    },
+    {
+      "id": "water_filter",
+      "name": "Water Filter",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials"
+    },
+    {
+      "id": "water_pump",
+      "name": "Water Pump",
+      "rarity": "rare",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Can be recycled into crafting materials."
+    },
+    {
+      "id": "wires",
+      "name": "Wires",
+      "rarity": "uncommon",
+      "category": "component",
+      "action": "recycle",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": "Used to craft a wide range of items. Can be recycled into crafting material."
+    },
+    {
+      "id": "zipline",
+      "name": "Zipline",
+      "rarity": "common",
+      "category": "material",
+      "action": "sell",
+      "keepForQuest": false,
+      "usedInUpgrades": [],
+      "notes": ""
     }
   ]
 }
