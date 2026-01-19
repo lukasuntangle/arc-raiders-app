@@ -170,21 +170,26 @@ export default function KeysScreen() {
 
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
-      <View style={styles.header}>
-        <Text style={[styles.title, { color: colors.text }]}>Key Locations</Text>
-        <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
-          Screenshots showing where to use each key
-        </Text>
-      </View>
-
-      {renderFilterChips()}
-
       <ScrollView
         style={styles.scrollView}
-        contentContainerStyle={styles.cardsContainer}
+        contentContainerStyle={styles.scrollContent}
         showsVerticalScrollIndicator={false}
+        stickyHeaderIndices={[1]}
       >
-        {filteredKeys.map(renderKeyCard)}
+        <View style={styles.header}>
+          <Text style={[styles.title, { color: colors.text }]}>Key Locations</Text>
+          <Text style={[styles.subtitle, { color: colors.textSecondary }]}>
+            Screenshots showing where to use each key
+          </Text>
+        </View>
+
+        <View style={[styles.filterWrapper, { backgroundColor: colors.background }]}>
+          {renderFilterChips()}
+        </View>
+
+        <View style={styles.cardsContainer}>
+          {filteredKeys.map(renderKeyCard)}
+        </View>
       </ScrollView>
 
       {renderZoomModal()}
@@ -234,9 +239,14 @@ const styles = StyleSheet.create({
   scrollView: {
     flex: 1,
   },
+  scrollContent: {
+    paddingBottom: 100,
+  },
+  filterWrapper: {
+    paddingBottom: 4,
+  },
   cardsContainer: {
     paddingHorizontal: 16,
-    paddingBottom: 100,
     gap: 16,
   },
   keyCard: {
