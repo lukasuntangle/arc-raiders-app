@@ -55,6 +55,16 @@
       "usedInUpgrades": []
     },
     {
+      "id": "apricot",
+      "name": "Apricot",
+      "rarity": "uncommon",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Keep for quests"
+    },
+    {
       "id": "arc_battery_cell",
       "name": "ARC Battery Cell",
       "rarity": "rare",
@@ -143,6 +153,16 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": []
+    },
+    {
+      "id": "cat_bed",
+      "name": "Cat Bed",
+      "rarity": "uncommon",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Keep for quests"
     },
     {
       "id": "cat_bell",
@@ -287,6 +307,16 @@
       "action": "recycle",
       "keepForQuest": false,
       "usedInUpgrades": []
+    },
+    {
+      "id": "dog_collar",
+      "name": "Dog Collar",
+      "rarity": "uncommon",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Keep for quests"
     },
     {
       "id": "durable_cloth",
@@ -597,6 +627,16 @@
       "usedInUpgrades": []
     },
     {
+      "id": "mushroom",
+      "name": "Mushroom",
+      "rarity": "common",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Keep for quests"
+    },
+    {
       "id": "nails",
       "name": "Nails",
       "rarity": "common",
@@ -613,6 +653,16 @@
       "action": "sell",
       "keepForQuest": false,
       "usedInUpgrades": []
+    },
+    {
+      "id": "olive",
+      "name": "Olive",
+      "rarity": "uncommon",
+      "category": "consumable",
+      "action": "keep",
+      "keepForQuest": true,
+      "usedInUpgrades": [],
+      "notes": "Keep for quests"
     },
     {
       "id": "optics_unit",
